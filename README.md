@@ -104,5 +104,5 @@
 >>   - ***Administration***: Dronecode Technical Community Manager
 >> - [Tom Pittenger] (https://github.com/magicrub)
 >>   - ***Vehicle***: Plane
-
-add...
+>> - [embpgp] (https://github.com/embpgp)
+>>   - ***Learning***:ArduCopter
