@@ -81,209 +81,217 @@
  /home/pgp/src/ardupilot/libraries/AP_HAL/Scheduler.h \
  /home/pgp/src/ardupilot/libraries/AP_HAL/Semaphores.h \
  /home/pgp/src/ardupilot/libraries/AP_HAL/Util.h \
- /home/pgp/src/ardupilot/libraries/AP_Menu/AP_Menu.h \
+ /home/pgp/src/ardupilot/libraries/AP_Common/Location.h \
+ /home/pgp/src/ardupilot/libraries/AP_Math/AP_Math.h \
+ /opt/gcc-arm-none-eabi-4_8-2014q3/arm-none-eabi/include/c++/4.8.4/limits \
  /home/pgp/src/ardupilot/libraries/AP_Param/AP_Param.h \
  /home/pgp/src/ardupilot/libraries/StorageManager/StorageManager.h \
  /opt/gcc-arm-none-eabi-4_8-2014q3/lib/gcc/arm-none-eabi/4.8.4/include/float.h \
- /home/pgp/src/ardupilot/libraries/GCS_MAVLink/GCS.h \
- /home/pgp/src/ardupilot/libraries/GCS_MAVLink/GCS_MAVLink.h \
- /home/pgp/src/ardupilot/libraries/AP_Math/AP_Math.h \
  /home/pgp/src/ardupilot/libraries/AP_Math/definitions.h \
- /opt/gcc-arm-none-eabi-4_8-2014q3/arm-none-eabi/include/c++/4.8.4/limits \
- /home/pgp/src/ardupilot/libraries/AP_Math/rotations.h \
- /home/pgp/src/ardupilot/libraries/AP_Math/vector2.h \
- /home/pgp/src/ardupilot/libraries/AP_Math/vector3.h \
- /home/pgp/src/ardupilot/libraries/AP_Math/matrix3.h \
- /home/pgp/src/ardupilot/libraries/AP_Math/quaternion.h \
- /home/pgp/src/ardupilot/libraries/AP_Math/polygon.h \
  /home/pgp/src/ardupilot/libraries/AP_Math/edc.h \
  /home/pgp/src/ardupilot/libraries/AP_Math/location.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/version.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/mavlink_types.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/mavlink.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/version.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/ardupilotmega.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../protocol.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../mavlink_types.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/common.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/../protocol.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_heartbeat.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_sys_status.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_system_time.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_ping.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_change_operator_control.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_change_operator_control_ack.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_auth_key.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_set_mode.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_param_request_read.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_param_request_list.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_param_value.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_param_set.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_gps_raw_int.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_gps_status.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_scaled_imu.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_raw_imu.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_raw_pressure.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_scaled_pressure.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_attitude.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_attitude_quaternion.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_local_position_ned.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_global_position_int.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_rc_channels_scaled.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_rc_channels_raw.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_servo_output_raw.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_mission_request_partial_list.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_mission_write_partial_list.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_mission_item.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_mission_request.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_mission_set_current.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_mission_current.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_mission_request_list.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_mission_count.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_mission_clear_all.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_mission_item_reached.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_mission_ack.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_set_gps_global_origin.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_gps_global_origin.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_param_map_rc.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_safety_set_allowed_area.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_safety_allowed_area.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_attitude_quaternion_cov.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_nav_controller_output.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_global_position_int_cov.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_local_position_ned_cov.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_rc_channels.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_request_data_stream.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_data_stream.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_manual_control.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_rc_channels_override.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_mission_item_int.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_vfr_hud.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_command_int.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_command_long.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_command_ack.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_manual_setpoint.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_set_attitude_target.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_attitude_target.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_set_position_target_local_ned.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_position_target_local_ned.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_set_position_target_global_int.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_position_target_global_int.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_local_position_ned_system_global_offset.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_hil_state.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_hil_controls.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_hil_rc_inputs_raw.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_optical_flow.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_global_vision_position_estimate.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_vision_position_estimate.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_vision_speed_estimate.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_vicon_position_estimate.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_highres_imu.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_optical_flow_rad.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_hil_sensor.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_sim_state.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_radio_status.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_file_transfer_protocol.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_timesync.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_camera_trigger.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_hil_gps.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_hil_optical_flow.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_hil_state_quaternion.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_scaled_imu2.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_log_request_list.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_log_entry.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_log_request_data.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_log_data.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_log_erase.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_log_request_end.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_gps_inject_data.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_gps2_raw.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_power_status.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_serial_control.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_gps_rtk.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_gps2_rtk.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_scaled_imu3.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_data_transmission_handshake.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_encapsulated_data.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_distance_sensor.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_terrain_request.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_terrain_data.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_terrain_check.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_terrain_report.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_scaled_pressure2.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_att_pos_mocap.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_set_actuator_control_target.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_actuator_control_target.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_altitude.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_resource_request.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_scaled_pressure3.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_follow_target.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_control_system_state.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_battery_status.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_autopilot_version.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_landing_target.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_vibration.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_home_position.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_set_home_position.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_message_interval.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_extended_sys_state.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_adsb_vehicle.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_v2_extension.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_memory_vect.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_debug_vect.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_named_value_float.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_named_value_int.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_statustext.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/../common/./mavlink_msg_debug.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/./mavlink_msg_sensor_offsets.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/./mavlink_msg_set_mag_offsets.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/./mavlink_msg_meminfo.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/./mavlink_msg_ap_adc.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/./mavlink_msg_digicam_configure.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/./mavlink_msg_digicam_control.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/./mavlink_msg_mount_configure.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/./mavlink_msg_mount_control.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/./mavlink_msg_mount_status.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/./mavlink_msg_fence_point.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/./mavlink_msg_fence_fetch_point.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/./mavlink_msg_fence_status.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/./mavlink_msg_ahrs.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/./mavlink_msg_simstate.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/./mavlink_msg_hwstatus.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/./mavlink_msg_radio.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/./mavlink_msg_limits_status.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/./mavlink_msg_wind.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/./mavlink_msg_data16.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/./mavlink_msg_data32.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/./mavlink_msg_data64.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/./mavlink_msg_data96.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/./mavlink_msg_rangefinder.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/./mavlink_msg_airspeed_autocal.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/./mavlink_msg_rally_point.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/./mavlink_msg_rally_fetch_point.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/./mavlink_msg_compassmot_status.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/./mavlink_msg_ahrs2.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/./mavlink_msg_camera_status.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/./mavlink_msg_camera_feedback.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/./mavlink_msg_battery2.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/./mavlink_msg_ahrs3.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/./mavlink_msg_autopilot_version_request.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/./mavlink_msg_remote_log_data_block.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/./mavlink_msg_remote_log_block_status.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/./mavlink_msg_led_control.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/./mavlink_msg_mag_cal_progress.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/./mavlink_msg_mag_cal_report.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/./mavlink_msg_ekf_status_report.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/./mavlink_msg_pid_tuning.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/./mavlink_msg_gimbal_report.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/./mavlink_msg_gimbal_control.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/./mavlink_msg_gimbal_torque_cmd_report.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/./mavlink_msg_gopro_heartbeat.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/./mavlink_msg_gopro_get_request.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/./mavlink_msg_gopro_get_response.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/./mavlink_msg_gopro_set_request.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/./mavlink_msg_gopro_set_response.h \
- /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v1.0/ardupilotmega/./mavlink_msg_rpm.h \
+ /home/pgp/src/ardupilot/libraries/AP_Math/vector2.h \
+ /home/pgp/src/ardupilot/libraries/AP_Math/vector3.h \
+ /home/pgp/src/ardupilot/libraries/AP_Math/rotations.h \
+ /home/pgp/src/ardupilot/libraries/AP_Math/matrix3.h \
+ /home/pgp/src/ardupilot/libraries/AP_Math/polygon.h \
+ /home/pgp/src/ardupilot/libraries/AP_Math/quaternion.h \
+ /home/pgp/src/ardupilot/libraries/AP_Menu/AP_Menu.h \
+ /home/pgp/src/ardupilot/libraries/GCS_MAVLink/GCS.h \
+ /home/pgp/src/ardupilot/libraries/GCS_MAVLink/GCS_MAVLink.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/version.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/mavlink_types.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/mavlink.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/version.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/ardupilotmega.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../protocol.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../mavlink_types.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_sensor_offsets.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_set_mag_offsets.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_meminfo.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_ap_adc.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_digicam_configure.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_digicam_control.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_mount_configure.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_mount_control.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_mount_status.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_fence_point.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_fence_fetch_point.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_fence_status.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_ahrs.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_simstate.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_hwstatus.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_radio.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_limits_status.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_wind.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_data16.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_data32.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_data64.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_data96.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_rangefinder.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_airspeed_autocal.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_rally_point.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_rally_fetch_point.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_compassmot_status.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_ahrs2.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_camera_status.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_camera_feedback.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_battery2.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_ahrs3.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_autopilot_version_request.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_remote_log_data_block.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_remote_log_block_status.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_led_control.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_mag_cal_progress.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_mag_cal_report.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_ekf_status_report.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_pid_tuning.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_gimbal_report.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_gimbal_control.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_gimbal_torque_cmd_report.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_gopro_heartbeat.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_gopro_get_request.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_gopro_get_response.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_gopro_set_request.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_gopro_set_response.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_rpm.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/common.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/../protocol.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_heartbeat.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_sys_status.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_system_time.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_ping.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_change_operator_control.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_change_operator_control_ack.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_auth_key.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_set_mode.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_param_request_read.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_param_request_list.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_param_value.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_param_set.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_gps_raw_int.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_gps_status.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_scaled_imu.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_raw_imu.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_raw_pressure.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_scaled_pressure.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_attitude.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_attitude_quaternion.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_local_position_ned.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_global_position_int.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_rc_channels_scaled.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_rc_channels_raw.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_servo_output_raw.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_mission_request_partial_list.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_mission_write_partial_list.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_mission_item.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_mission_request.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_mission_set_current.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_mission_current.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_mission_request_list.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_mission_count.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_mission_clear_all.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_mission_item_reached.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_mission_ack.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_set_gps_global_origin.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_gps_global_origin.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_param_map_rc.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_mission_request_int.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_safety_set_allowed_area.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_safety_allowed_area.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_attitude_quaternion_cov.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_nav_controller_output.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_global_position_int_cov.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_local_position_ned_cov.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_rc_channels.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_request_data_stream.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_data_stream.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_manual_control.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_rc_channels_override.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_mission_item_int.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_vfr_hud.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_command_int.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_command_long.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_command_ack.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_manual_setpoint.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_set_attitude_target.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_attitude_target.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_set_position_target_local_ned.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_position_target_local_ned.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_set_position_target_global_int.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_position_target_global_int.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_local_position_ned_system_global_offset.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_hil_state.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_hil_controls.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_hil_rc_inputs_raw.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_optical_flow.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_global_vision_position_estimate.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_vision_position_estimate.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_vision_speed_estimate.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_vicon_position_estimate.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_highres_imu.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_optical_flow_rad.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_hil_sensor.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_sim_state.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_radio_status.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_file_transfer_protocol.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_timesync.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_camera_trigger.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_hil_gps.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_hil_optical_flow.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_hil_state_quaternion.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_scaled_imu2.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_log_request_list.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_log_entry.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_log_request_data.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_log_data.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_log_erase.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_log_request_end.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_gps_inject_data.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_gps2_raw.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_power_status.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_serial_control.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_gps_rtk.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_gps2_rtk.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_scaled_imu3.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_data_transmission_handshake.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_encapsulated_data.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_distance_sensor.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_terrain_request.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_terrain_data.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_terrain_check.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_terrain_report.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_scaled_pressure2.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_att_pos_mocap.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_set_actuator_control_target.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_actuator_control_target.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_altitude.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_resource_request.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_scaled_pressure3.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_follow_target.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_control_system_state.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_battery_status.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_autopilot_version.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_landing_target.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_estimator_status.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_wind_cov.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_gps_rtcm_data.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_vibration.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_home_position.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_set_home_position.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_message_interval.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_extended_sys_state.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_adsb_vehicle.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_v2_extension.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_memory_vect.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_debug_vect.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_named_value_float.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_named_value_int.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_statustext.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_debug.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/./mavlink_msg_setup_signing.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../common/../mavlink_get_info.h \
+ /home/pgp/src/ardupilot/Build.ArduCopter/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega/../mavlink_get_info.h \
  /home/pgp/src/ardupilot/libraries/DataFlash/DataFlash.h \
  /home/pgp/src/ardupilot/libraries/AP_GPS/AP_GPS.h \
  /home/pgp/src/ardupilot/libraries/AP_Vehicle/AP_Vehicle.h \
@@ -305,7 +313,6 @@
  /home/pgp/src/ardupilot/libraries/Filter/DerivativeFilter.h \
  /home/pgp/src/ardupilot/libraries/Filter/ModeFilter.h \
  /home/pgp/src/ardupilot/libraries/Filter/Butter.h \
- /home/pgp/src/ardupilot/libraries/AP_Buffer/AP_Buffer.h \
  /home/pgp/src/ardupilot/libraries/AP_AHRS/AP_AHRS.h \
  /home/pgp/src/ardupilot/libraries/AP_Compass/AP_Compass.h \
  /home/pgp/src/ardupilot/libraries/AP_Declination/AP_Declination.h \
@@ -368,6 +375,7 @@
  /home/pgp/src/ardupilot/libraries/AC_AttitudeControl/AC_AttitudeControl_Heli.h \
  /home/pgp/src/ardupilot/libraries/AC_AttitudeControl/AC_PosControl.h \
  /home/pgp/src/ardupilot/libraries/AP_InertialNav/AP_InertialNav.h \
+ /home/pgp/src/ardupilot/libraries/AP_Buffer/AP_Buffer.h \
  /home/pgp/src/ardupilot/libraries/AP_InertialNav/AP_InertialNav_NavEKF.h \
  /home/pgp/src/ardupilot/libraries/AP_OpticalFlow/AP_OpticalFlow.h \
  /home/pgp/src/ardupilot/libraries/AP_OpticalFlow/OpticalFlow.h \
@@ -375,12 +383,14 @@
  /home/pgp/src/ardupilot/libraries/AP_OpticalFlow/AP_OpticalFlow_HIL.h \
  /home/pgp/src/ardupilot/libraries/AP_OpticalFlow/AP_OpticalFlow_PX4.h \
  /home/pgp/src/ardupilot/libraries/AP_OpticalFlow/AP_OpticalFlow_Linux.h \
+ /home/pgp/src/ardupilot/libraries/AP_HAL/I2CDevice.h \
  /home/pgp/src/ardupilot/libraries/AP_Relay/AP_Relay.h \
  /home/pgp/src/ardupilot/libraries/AP_ServoRelayEvents/AP_ServoRelayEvents.h \
  /home/pgp/src/ardupilot/libraries/AP_Camera/AP_Camera.h \
  /home/pgp/src/ardupilot/modules/PX4Firmware/src/drivers/drv_hrt.h \
  /home/pgp/src/ardupilot/modules/PX4Firmware/src/platforms/px4_time.h \
  /home/pgp/src/ardupilot/libraries/AC_WPNav/AC_WPNav.h \
+ /home/pgp/src/ardupilot/libraries/AP_Terrain/AP_Terrain.h \
  /home/pgp/src/ardupilot/libraries/AC_WPNav/AC_Circle.h \
  /home/pgp/src/ardupilot/libraries/AC_Fence/AC_Fence.h \
  /home/pgp/src/ardupilot/libraries/AP_Scheduler/AP_Scheduler.h \
@@ -388,7 +398,6 @@
  /home/pgp/src/ardupilot/libraries/AP_BoardConfig/AP_BoardConfig.h \
  /home/pgp/src/ardupilot/libraries/AP_Frsky_Telem/AP_Frsky_Telem.h \
  /home/pgp/src/ardupilot/libraries/AP_LandingGear/AP_LandingGear.h \
- /home/pgp/src/ardupilot/libraries/AP_Terrain/AP_Terrain.h \
  /home/pgp/src/ardupilot/libraries/AP_ADSB/AP_ADSB.h \
  /home/pgp/src/ardupilot/libraries/AC_InputManager/AC_InputManager.h \
  /home/pgp/src/ardupilot/libraries/AC_InputManager/AC_InputManager_Heli.h \
@@ -401,4 +410,6 @@
  /home/pgp/src/ardupilot/libraries/AP_IRLock/AP_IRLock.h \
  /home/pgp/src/ardupilot/libraries/AP_IRLock/IRLock.h \
  /home/pgp/src/ardupilot/libraries/AP_IRLock/AP_IRLock_PX4.h \
- /home/pgp/src/ardupilot/ArduCopter/Parameters.h
+ /home/pgp/src/ardupilot/ArduCopter/Parameters.h \
+ /home/pgp/src/ardupilot/ArduCopter/version.h \
+ /home/pgp/src/ardupilot/libraries/AP_Common/missing/ap_version.h
