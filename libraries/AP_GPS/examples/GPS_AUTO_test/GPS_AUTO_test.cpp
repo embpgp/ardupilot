@@ -50,7 +50,7 @@ AP_SerialManager serial_manager;
 void setup()
 {
     hal.console->println("GPS AUTO library test");
-
+    hal.console->println("Test Starting");
     // Initialise the leds
     board_led.init();
 
@@ -90,6 +90,10 @@ void loop()
                             gps.time_week(),
                             (unsigned long)gps.time_week_ms(),
                             gps.status());
+    }
+    else
+    {
+        hal.console->println("It seemed like NO GPS");        
     }
 
     // Delay for 10 mS will give us 100 Hz invocation rate

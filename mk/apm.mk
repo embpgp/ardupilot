@@ -3,7 +3,7 @@
 SYSTYPE			:=	$(shell uname)
 
 ifneq ($(findstring CYGWIN, $(SYSTYPE)),) 
-  MK_DIR := $(shell cygpath -m ../mk)
+  MK_DIR := $(shell cygpath -m ../mk)  #is win???
 else
   MK_DIR := $(patsubst %/,%,$(dir $(lastword $(MAKEFILE_LIST))))
 endif

@@ -141,7 +141,7 @@ static void run_test()
 
             hal.console->printf("%u - Accel (%c) : X:%6.2f Y:%6.2f Z:%6.2f norm:%5.2f",
                                 ii, state, accel.x, accel.y, accel.z, accel.length());
-
+            
             gyro = ins.get_gyro(ii);
 
             if (ii > gyro_count - 1) {
@@ -158,6 +158,15 @@ static void run_test()
             hal.console->printf("   Gyro (%c) : X:%6.2f Y:%6.2f Z:%6.2f\n",
                                 state, gyro.x, gyro.y, gyro.z);
         }
+
+        accel = ins.get_accel();
+        hal.console->printf("Acc pri:X:%6.2f Y:%6.2f Z:%6.2f norm:%5.2f",
+                            accel.x, accel.y, accel.z, accel.length());
+        
+
+        gyro = ins.get_gyro();
+        hal.console->printf("   Gyro:X:%6.2f Y:%6.2f Z:%6.2f\n", 
+                                gyro.x, gyro.y, gyro.z);
     }
 
     // clear user input
