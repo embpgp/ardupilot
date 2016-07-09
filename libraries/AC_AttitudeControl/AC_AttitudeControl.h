@@ -72,7 +72,7 @@ public:
     virtual AC_PID& get_rate_roll_pid() = 0;
     virtual AC_PID& get_rate_pitch_pid() = 0;
     virtual AC_PID& get_rate_yaw_pid() = 0;
-
+    //由后面的类来负责实现
     // Gets the roll acceleration limit in centidegrees/s/s
     float get_accel_roll_max() { return _accel_roll_max; }
 

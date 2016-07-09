@@ -122,7 +122,7 @@ void AP_MotorsMatrix::output_to_motors()
     hal.rcout->cork();
     for (i=0; i<AP_MOTORS_MAX_NUM_MOTORS; i++) {
         if (motor_enabled[i]) {
-            rc_write(i, motor_out[i]);
+            rc_write(i+1, motor_out[i]);   //第二处
         }
     }
     hal.rcout->push();
@@ -301,7 +301,7 @@ void AP_MotorsMatrix::output_test(uint8_t motor_seq, int16_t pwm)
     for (uint8_t i=0; i<AP_MOTORS_MAX_NUM_MOTORS; i++) {
         if (motor_enabled[i] && _test_order[i] == motor_seq) {
             // turn on this motor
-            rc_write(i, pwm);
+            rc_write(i+1, pwm);   //第一處
         }
     }
     hal.rcout->push();
@@ -330,11 +330,11 @@ void AP_MotorsMatrix::add_motor_raw(int8_t motor_num, float roll_fac, float pitc
         add_motor_num(motor_num);
     }
 }
-
+//增加了一个１，最后的结果是映射到了通道２～５
 // add_motor using just position and prop direction - assumes that for each motor, roll and pitch factors are equal
 void AP_MotorsMatrix::add_motor(int8_t motor_num, float angle_degrees, float yaw_factor, uint8_t testing_order)
 {
-    add_motor(motor_num, angle_degrees, angle_degrees, yaw_factor, testing_order);
+    add_motor(motor_num+1, angle_degrees, angle_degrees, yaw_factor, testing_order);
 }
 
 // add_motor using position and prop direction. Roll and Pitch factors can differ (for asymmetrical frames)
