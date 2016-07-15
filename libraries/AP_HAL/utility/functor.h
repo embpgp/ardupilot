@@ -35,7 +35,7 @@
 template <class RetType, class... Args>
 class Functor
 {
-public:
+public:    //constexpr即为inline
     constexpr Functor(void *obj, RetType (*method)(void *obj, Args...))
         : _obj(obj)
         , _method(method)

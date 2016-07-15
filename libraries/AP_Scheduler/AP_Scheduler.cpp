@@ -78,6 +78,8 @@ AP_Scheduler::AP_Scheduler(void)
 // initialise the scheduler
 void AP_Scheduler::init(const AP_Scheduler::Task *tasks, uint8_t num_tasks)
 {
+//new了一个int类型的数组来保存各个任务的剩余微秒时间，初始化的时候为０
+//下文的run方法将进行赋值，首地址为_last_run,可直接通过_last_run[i]访问
     _tasks = tasks;
     _num_tasks = num_tasks;
     _last_run = new uint16_t[_num_tasks];
@@ -86,6 +88,7 @@ void AP_Scheduler::init(const AP_Scheduler::Task *tasks, uint8_t num_tasks)
 }
 
 // one tick has passed
+//每次调度到统计++,
 void AP_Scheduler::tick(void)
 {
     _tick_counter++;
@@ -99,7 +102,7 @@ void AP_Scheduler::run(uint16_t time_available)
 {
     uint32_t run_started_usec = AP_HAL::micros();
     uint32_t now = run_started_usec;
-
+    //这里_debug参数应该不满足条件所以可以直接略过去
     if (_debug > 3 && _perf_counters == nullptr) {
         _perf_counters = new AP_HAL::Util::perf_counter_t[_num_tasks];
         if (_perf_counters != nullptr) {

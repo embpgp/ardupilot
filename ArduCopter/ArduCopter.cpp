@@ -93,6 +93,9 @@ const AP_Scheduler::Task Copter::scheduler_tasks[] = {
     SCHED_TASK(read_aux_switches,     10,     50),
     SCHED_TASK(arm_motors_check,      10,     50),
     SCHED_TASK(auto_disarm_check,     10,     50),
+
+    SCHED_TASK(auto_arm,              10,     50),
+
     SCHED_TASK(auto_trim,             10,     75),
     SCHED_TASK(read_rangefinder,      20,    100),
     SCHED_TASK(update_altitude,       10,    100),
@@ -154,6 +157,26 @@ const AP_Scheduler::Task Copter::scheduler_tasks[] = {
 };
 
 
+//自动解锁功能已经实现
+void Copter::auto_arm()
+{
+    //等待15s等待所有的就绪
+    static uint16_t delay_15s = 0;
+    static uint16_t continue_2s = 0;
+    static bool arm_ok = false;
+    if(!arm_ok)
+    {
+        if(++delay_15s >= 150)
+        {
+            channel_throttle->set_control_in(0);
+            channel_yaw->set_control_in(4200);
+            if(++continue_2s >= 25)  //保持上述
+            {
+                arm_ok = true;     //应该解锁完毕了    
+            }
+        }
+    }
+}
 void Copter::setup() 
 {
     cliSerial = hal.console;
@@ -266,7 +289,7 @@ void Copter::fast_loop()
     // check if ekf has reset target heading
     check_ekf_yaw_reset();
 
-    // run the attitude controllers
+    // run the attitude controllers   各种飞行模式的匹配
     update_flight_mode();
 
     // update home from EKF if necessary
@@ -286,6 +309,8 @@ void Copter::fast_loop()
     }
 }
 
+
+//第五通道读取以便于切换模式
 // rc_loops - reads user input from transmitter/receiver
 // called at 100hz
 void Copter::rc_loop()

@@ -34,6 +34,9 @@ bool Copter::set_mode(control_mode_t mode, mode_reason_t reason)
                 success = acro_init(ignore_checks);
             #endif
             break;
+        case NEWFLIGHTMODE:
+            success = newflightmode_init(ignore_checks);
+            break;
 
         case STABILIZE:
             #if FRAME_CONFIG == HELI_FRAME
@@ -154,6 +157,9 @@ void Copter::update_flight_mode()
             #else
                 acro_run();
             #endif
+            break;
+        case NEWFLIGHTMODE:
+            newflightmode_run();
             break;
 
         case STABILIZE:
@@ -349,6 +355,9 @@ void Copter::print_flight_mode(AP_HAL::BetterStream *port, uint8_t mode)
     switch (mode) {
     case STABILIZE:
         port->print("STABILIZE");
+        break;
+    case NEWFLIGHTMODE:
+        port->print("NEWFLIGHTMODE");
         break;
     case ACRO:
         port->print("ACRO");

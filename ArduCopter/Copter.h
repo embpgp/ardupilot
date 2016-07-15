@@ -579,6 +579,16 @@ private:
     static const AP_Scheduler::Task scheduler_tasks[];
     static const AP_Param::Info var_info[];
     static const struct LogStructure log_structure[];
+    
+     //newflightmode
+    bool newflightmode_init(bool ignore_checks);
+    void newflightmode_run();
+
+
+
+    //自己新加的方法，使得自动解锁实现,直接模拟遥控器变量试试，10Hz调度
+    void auto_arm(void);
+
 
     void compass_accumulate(void);
     void compass_cal_update(void);
@@ -818,6 +828,11 @@ private:
     void poshold_get_wind_comp_lean_angles(int16_t &roll_angle, int16_t &pitch_angle);
     void poshold_roll_controller_to_pilot_override();
     void poshold_pitch_controller_to_pilot_override();
+
+
+
+    
+
 
     // Throw to launch functionality
     bool throw_init(bool ignore_checks);
@@ -1080,6 +1095,11 @@ public:
     int8_t test_rangefinder(uint8_t argc, const Menu::arg *argv);
 
     int8_t reboot_board(uint8_t argc, const Menu::arg *argv);
+
+
+
+
+   
 };
 
 #define MENU_FUNC(func) FUNCTOR_BIND(&copter, &Copter::func, int8_t, uint8_t, const Menu::arg *)

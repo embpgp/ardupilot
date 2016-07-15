@@ -26,6 +26,7 @@ private:
     void ins_update(void);
     void one_hz_print(void);
     void five_second_call(void);
+    void ten_hz_print(void);
 };
 
 static SchedTest schedtest;
@@ -41,6 +42,7 @@ const AP_Scheduler::Task SchedTest::scheduler_tasks[] = {
     SCHED_TASK(ins_update,             50,   1000),
     SCHED_TASK(one_hz_print,            1,   1000),
     SCHED_TASK(five_second_call,      0.2,   1800),
+    SCHED_TASK(ten_hz_print,          10,    1000),
 };
 
 
@@ -64,6 +66,16 @@ void SchedTest::loop(void)
     scheduler.run(20000);
 }
 
+
+/*
+  自定义10hz任务
+ */
+void SchedTest::ten_hz_print()
+{
+    static uint32_t count = 0;
+    ++count;
+    hal.console->printf("ten hz :t = %u\n", count);
+}
 /*
   update inertial sensor, reading data 
  */

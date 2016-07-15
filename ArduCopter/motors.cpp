@@ -11,11 +11,12 @@ static uint32_t auto_disarm_begin;
 
 // arm_motors_check - checks for pilot input to arm or disarm the copter
 // called at 10hz
+//用调度器进行调度的,0.1s一次
 void Copter::arm_motors_check()
 {
     static int16_t arming_counter;
 
-    // ensure throttle is down
+    // ensure throttle is down　　　理想的解锁环境是throttle值为0
     if (channel_throttle->get_control_in() > 0) {
         arming_counter = 0;
         return;
@@ -23,9 +24,15 @@ void Copter::arm_motors_check()
 
     int16_t tmp = channel_yaw->get_control_in();
 
+    //int16_t tmp = 4400;
+   // bool self_control = false;
+    //arming_counter = ARM_DELAY - 1;
     // full right
     if (tmp > 4000) {
-
+       // if (self_control){
+      //      return;
+      //  }
+       // hal.scheduler->delay(10000);  //延时10s等待初始化
         // increase the arming counter to a maximum of 1 beyond the auto trim counter
         if( arming_counter <= AUTO_TRIM_DELAY ) {
             arming_counter++;
@@ -45,6 +52,8 @@ void Copter::arm_motors_check()
             // ensure auto-disarm doesn't trigger immediately
             auto_disarm_begin = millis();
         }
+
+       // self_control = true;   //解锁完毕
 
     // full left
     }else if (tmp < -4000) {
@@ -68,7 +77,8 @@ void Copter::arm_motors_check()
         arming_counter = 0;
     }
 }
-
+//与上面的arm_motors_check()函数一样都是0.1s被调度一次，使得在地面上超过10s自动上锁
+//在参数类中有一个宏定义# define AUTO_DISARMING_DELAY  10，使得g.disarm_delay为10
 // auto_disarm_check - disarms the copter if it has been sitting on the ground in manual mode with throttle low for at least 15 seconds
 void Copter::auto_disarm_check()
 {
