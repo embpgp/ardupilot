@@ -245,7 +245,7 @@ RC_Channel::calc_pwm(void)
 
 /*
   return the center stick position expressed as a control_in value
-  used for thr_mid in copter
+  used for thr_mid in copter  484
  */
 int16_t
 RC_Channel::get_control_mid() const {

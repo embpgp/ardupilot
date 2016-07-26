@@ -84,9 +84,12 @@ void Copter::auto_disarm_check()
 {
     uint32_t tnow_ms = millis();
     uint32_t disarm_delay_ms = 1000*constrain_int16(g.disarm_delay, 0, 127);
+    //disarm_delay_ms = 10*1000ms
 
     // exit immediately if we are already disarmed, or if auto
     // disarming is disabled
+
+    //这里已经进不来了，要依靠上面的-4200来上锁了
     if (!motors.armed() || disarm_delay_ms == 0 || control_mode == THROW) {
         auto_disarm_begin = tnow_ms;
         return;
@@ -112,17 +115,23 @@ void Copter::auto_disarm_check()
         bool thr_low;
         if (mode_has_manual_throttle(control_mode) || !sprung_throttle_stick) {
             thr_low = ap.throttle_zero;
+            hal.console->printf("sprung_throttle_stick is %s\n", sprung_throttle_stick?"true":"false");
         } else {
             float deadband_top = g.rc_3.get_control_mid() + g.throttle_deadzone;
             thr_low = g.rc_3.get_control_in() <= deadband_top;
+            hal.console->printf("deadband_top:%f\n", deadband_top);
+
+         
+            
         }
 
         if (!thr_low || !ap.land_complete) {
             // reset timer
             auto_disarm_begin = tnow_ms;
         }
+       // hal.console->printf("entry the else,thro_low is %s and the mid is %u\n", thr_low?"true":"false", g.rc_3.get_control_mid());
     }
-
+    //hal.console->printf("g.rc_3 value:%u\n", g.rc_3.get_control_in());
     // disarm once timer expires
     if ((tnow_ms-auto_disarm_begin) >= disarm_delay_ms) {
         init_disarm_motors();

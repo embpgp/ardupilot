@@ -21,12 +21,12 @@
  {
  	static uint32_t counter = 0;
  	//if not armed or throttle at zero, set throttle to zero and exit immediately
- 	if(!motors.armed() || g.rc_3.get_control_in() <= 0){
+ 	/*if(!motors.armed() || g.rc_3.get_control_in() <= 0){
  		attitude_control.relax_bf_rate_controller();
  		attitude_control.set_yaw_target_to_current_heading();
  		attitude_control.set_throttle_out(0, false, 0);
  		return;
- 	}
+ 	}*/
  	++counter;
  	hal.console->printf("newflightmode_run the %u\n", counter);
  	hal.scheduler->delay(1000);

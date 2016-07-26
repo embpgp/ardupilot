@@ -183,7 +183,7 @@ void Copter::set_throttle_zero_flag(int16_t throttle_control)
 {
     static uint32_t last_nonzero_throttle_ms = 0;
     uint32_t tnow_ms = millis();
-
+    //hal.console->printf("throttle:%u", throttle_control);
     // if not using throttle interlock and non-zero throttle and not E-stopped,
     // or using motor interlock and it's enabled, then motors are running, 
     // and we are flying. Immediately set as non-zero
@@ -193,6 +193,7 @@ void Copter::set_throttle_zero_flag(int16_t throttle_control)
     } else if (tnow_ms - last_nonzero_throttle_ms > THROTTLE_ZERO_DEBOUNCE_TIME_MS) {
         ap.throttle_zero = true;
     }
+    //hal.console->printf("%s\n", ap.throttle_zero? "true":"false");
 }
 
 // pass pilot's inputs to motors library (used to allow wiggling servos while disarmed on heli, single, coax copters)

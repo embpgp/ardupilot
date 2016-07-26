@@ -602,9 +602,9 @@
 #ifndef ALT_HOLD_ACCEL_MAX
  # define ALT_HOLD_ACCEL_MAX 250    // if you change this you must also update the duplicate declaration in AC_WPNav.h
 #endif
-
+//本来value为10,就是10钟自动上锁，设置为0的目的是让自动上锁任务失效，
 #ifndef AUTO_DISARMING_DELAY
-# define AUTO_DISARMING_DELAY  10
+# define AUTO_DISARMING_DELAY  0
 #endif
 
 //////////////////////////////////////////////////////////////////////////////

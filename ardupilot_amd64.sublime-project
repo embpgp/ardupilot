@@ -3,6 +3,9 @@
 	[
 		{
 			"path": "/home/rutk1t0r/src/ardupilot"
+		},
+		{
+			"path": "/media/rutk1t0r/PGP/项目/四轴飞行器/老飞机/code/ANO_USB"
 		}
 	]
 }

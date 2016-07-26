@@ -19,7 +19,7 @@ void setup()
     hal.scheduler->delay(1000);
 
     barometer.init();
-    barometer.calibrate();    //jiaozheng
+    barometer.calibrate();    //校准
 
     timer = AP_HAL::micros();
 }

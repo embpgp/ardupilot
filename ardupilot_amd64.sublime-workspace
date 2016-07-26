@@ -4,6 +4,94 @@
 		"selected_items":
 		[
 			[
+				"chan",
+				"channel_throttle"
+			],
+			[
+				"cha",
+				"channel_roll"
+			],
+			[
+				"count",
+				"count_stop"
+			],
+			[
+				"set_cn",
+				"set_control_in"
+			],
+			[
+				"print",
+				"printf	printf …"
+			],
+			[
+				"motor",
+				"motors"
+			],
+			[
+				"arm",
+				"armed"
+			],
+			[
+				"get_cn",
+				"get_control_in"
+			],
+			[
+				"uin",
+				"uint16_t"
+			],
+			[
+				"get_con",
+				"get_control_mid"
+			],
+			[
+				"contra",
+				"constrain_int16	(Attitude.cpp)"
+			],
+			[
+				"thro",
+				"throttle_temp"
+			],
+			[
+				"ui",
+				"uint16_t"
+			],
+			[
+				"mill",
+				"millis	(Attitude.cpp)"
+			],
+			[
+				"contrain",
+				"constrains	(AC_AttitudeControl.cpp)"
+			],
+			[
+				"contu",
+				"continue_2s"
+			],
+			[
+				"channel_",
+				"channel_throttle"
+			],
+			[
+				"ch",
+				"channel"
+			],
+			[
+				"auto_",
+				"auto_arm"
+			],
+			[
+				"auto",
+				"auto	(Copter.h)"
+			],
+			[
+				"ten",
+				"ten_hz_print"
+			],
+			[
+				"prit",
+				"printf	printf …"
+			],
+			[
 				"uint",
 				"uint32_t	(Copter.h)"
 			],
@@ -27,110 +115,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "ArduCopter/radio.cpp",
-			"settings":
-			{
-				"buffer_size": 7688,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "libraries/RC_Channel/RC_Channel.cpp",
-			"settings":
-			{
-				"buffer_size": 13811,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "libraries/AP_HAL/Scheduler.h",
-			"settings":
-			{
-				"buffer_size": 1953,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "libraries/AP_AHRS/AP_AHRS_NavEKF.h",
-			"settings":
-			{
-				"buffer_size": 9549,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "libraries/AP_InertialSensor/AP_InertialSensor.h",
-			"settings":
-			{
-				"buffer_size": 16219,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "libraries/AP_HAL_PX4/HAL_PX4_Class.cpp",
-			"settings":
-			{
-				"buffer_size": 10172,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ArduCopter/ArduCopter.cpp",
-			"settings":
-			{
-				"buffer_size": 20261,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ArduCopter/motors.cpp",
-			"settings":
-			{
-				"buffer_size": 10010,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ArduCopter/arming_checks.cpp",
-			"settings":
-			{
-				"buffer_size": 26655,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ArduCopter/config.h",
-			"settings":
-			{
-				"buffer_size": 21415,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ArduCopter/failsafe.cpp",
-			"settings":
-			{
-				"buffer_size": 2069,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ArduCopter/system.cpp",
-			"settings":
-			{
-				"buffer_size": 12730,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "libraries/AP_HAL_QURT/Scheduler.cpp",
-			"settings":
-			{
-				"buffer_size": 6764,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -180,57 +164,96 @@
 	},
 	"file_history":
 	[
-		"/home/rutk1t0r/src/ardupilot/libraries/AP_HAL_QURT/HAL_QURT_Class.cpp",
+		"/home/rutk1t0r/src/ardupilot/ArduCopter/defines.h",
+		"/home/rutk1t0r/src/ardupilot/ArduCopter/control_althold.cpp",
+		"/home/rutk1t0r/src/ardupilot/ArduCopter/takeoff.cpp",
 		"/home/rutk1t0r/src/ardupilot/ArduCopter/Copter.cpp",
-		"/home/rutk1t0r/src/ardupilot/libraries/AP_Motors/AP_Motors_Class.cpp",
-		"/home/rutk1t0r/src/ardupilot/libraries/AP_HAL/AP_HAL_Namespace.h",
-		"/home/rutk1t0r/src/ardupilot/libraries/AP_HAL/HAL.h",
+		"/home/rutk1t0r/src/ardupilot/libraries/AC_AttitudeControl/AC_PosControl.h",
+		"/home/rutk1t0r/src/ardupilot/libraries/AC_AttitudeControl/AC_AttitudeControl_Multi.h",
 		"/home/rutk1t0r/src/ardupilot/ArduCopter/Copter.h",
+		"/home/rutk1t0r/src/ardupilot/ArduCopter/flight_mode.cpp",
+		"/home/rutk1t0r/src/ardupilot/ArduCopter/motors.cpp",
+		"/home/rutk1t0r/src/ardupilot/libraries/AP_Motors/AP_Motors_Class.h",
+		"/home/rutk1t0r/src/ardupilot/libraries/AP_HAL_PX4/RCInput.cpp",
+		"/home/rutk1t0r/src/ardupilot/ArduCopter/config.h",
+		"/home/rutk1t0r/src/ardupilot/libraries/RC_Channel/RC_Channel.cpp",
+		"/home/rutk1t0r/src/ardupilot/ArduCopter/radio.cpp",
+		"/home/rutk1t0r/src/ardupilot/libraries/AC_AttitudeControl/AC_AttitudeControl.cpp",
+		"/home/rutk1t0r/src/ardupilot/ArduCopter/control_stabilize.cpp",
+		"/home/rutk1t0r/src/ardupilot/ArduCopter/system.cpp",
+		"/home/rutk1t0r/src/ardupilot/ArduCopter/ArduCopter.cpp",
+		"/home/rutk1t0r/src/ardupilot/ArduCopter/switches.cpp",
+		"/home/rutk1t0r/src/ardupilot/ArduCopter/AP_State.cpp",
+		"/home/rutk1t0r/src/ardupilot/libraries/AP_AHRS/AP_AHRS_NavEKF.cpp",
+		"/home/rutk1t0r/src/ardupilot/ArduCopter/Attitude.cpp",
+		"/home/rutk1t0r/src/ardupilot/libraries/AP_HAL_PX4/RCOutput.cpp",
+		"/home/rutk1t0r/src/ardupilot/libraries/AP_Motors/AP_Motors_Class.cpp",
+		"/home/rutk1t0r/src/ardupilot/libraries/AP_Motors/AP_MotorsMatrix.cpp",
+		"/home/rutk1t0r/src/ardupilot/libraries/AP_Param/AP_Param.h",
+		"/home/rutk1t0r/src/ardupilot/libraries/AP_Motors/AP_MotorsMulticopter.cpp",
+		"/home/rutk1t0r/src/ardupilot/ArduCopter/GCS_Mavlink.cpp",
+		"/home/rutk1t0r/src/ardupilot/ArduCopter/APM_Config_mavlink_hil.h",
+		"/home/rutk1t0r/src/ardupilot/ArduCopter/navigation.cpp",
+		"/home/rutk1t0r/src/ardupilot/ArduPlane/ArduPlane.cpp",
+		"/home/rutk1t0r/src/ardupilot/libraries/RC_Channel/RC_Channel.h",
+		"/home/rutk1t0r/src/ardupilot/libraries/AP_HAL_PX4/RCOutput.h",
+		"/home/rutk1t0r/src/ardupilot/libraries/AP_Motors/AP_MotorsMulticopter.h",
+		"/home/rutk1t0r/src/ardupilot/modules/PX4Firmware/Build/px4io-v2_default.build/nuttx-export/include/stdint.h",
+		"/home/rutk1t0r/src/ardupilot/modules/PX4Firmware/src/drivers/drv_pwm_output.h",
+		"/home/rutk1t0r/src/ardupilot/libraries/AP_Math/AP_Math.cpp",
+		"/home/rutk1t0r/src/ardupilot/libraries/AP_Math/AP_Math.h",
+		"/home/rutk1t0r/src/ardupilot/ArduCopter/land_detector.cpp",
+		"/home/rutk1t0r/src/ardupilot/ArduCopter/control_newflightmode.cpp",
+		"/home/rutk1t0r/src/ardupilot/ArduCopter/Parameters.h",
+		"/home/rutk1t0r/src/ardupilot/ArduCopter/Parameters.cpp",
+		"/home/rutk1t0r/src/ardupilot/ArduCopter/failsafe.cpp",
+		"/home/rutk1t0r/src/ardupilot/libraries/AP_HAL/RCOutput.h",
+		"/home/rutk1t0r/src/ardupilot/libraries/AC_AttitudeControl/AC_AttitudeControl_Heli.cpp",
+		"/home/rutk1t0r/src/ardupilot/modules/PX4Firmware/src/lib/mathlib/math/Limits.cpp",
+		"/home/rutk1t0r/src/ardupilot/ArduCopter/heli.cpp",
+		"/home/rutk1t0r/src/ardupilot/libraries/AP_Motors/AP_MotorsQuad.h",
+		"/home/rutk1t0r/src/ardupilot/libraries/AP_Motors/AP_MotorsMatrix.h",
+		"/home/rutk1t0r/src/ardupilot/libraries/AP_HAL/HAL.h",
+		"/home/rutk1t0r/src/ardupilot/libraries/AP_HAL_PX4/HAL_PX4_Class.cpp",
+		"/home/rutk1t0r/src/ardupilot/libraries/AP_Baro/AP_Baro.h",
+		"/home/rutk1t0r/src/ardupilot/ArduCopter/sensors.cpp",
+		"/home/rutk1t0r/src/ardupilot/modules/PX4Firmware/src/modules/uORB/topics/input_rc.h",
+		"/home/rutk1t0r/src/ardupilot/libraries/AP_RCMapper/AP_RCMapper.h",
+		"/home/rutk1t0r/src/ardupilot/libraries/AP_RCMapper/AP_RCMapper.cpp",
+		"/home/rutk1t0r/src/ardupilot/modules/PX4Firmware/Build/px4fmu-v2_APM.build/nuttx-export/include/nuttx/compiler.h",
+		"/home/rutk1t0r/src/ardupilot/modules/PX4NuttX/nuttx/libc/string/lib_strdup.c",
+		"/home/rutk1t0r/src/ardupilot/modules/PX4NuttX/nuttx/include/nuttx/compiler.h",
+		"/home/rutk1t0r/src/ardupilot/libraries/AP_Baro/AP_Baro.cpp",
+		"/home/rutk1t0r/src/ardupilot/libraries/AP_Baro/examples/BARO_generic/BARO_generic.cpp",
+		"/home/rutk1t0r/src/ardupilot/ArduCopter/arming_checks.cpp",
+		"/home/rutk1t0r/src/ardupilot/libraries/AP_HAL/Scheduler.h",
+		"/home/rutk1t0r/src/ardupilot/libraries/AP_AHRS/AP_AHRS_NavEKF.h",
+		"/home/rutk1t0r/src/ardupilot/libraries/AP_InertialSensor/AP_InertialSensor.h",
+		"/home/rutk1t0r/src/ardupilot/ArduCopter/leds.cpp",
+		"/home/rutk1t0r/src/ardupilot/libraries/AP_Notify/AP_Notify.cpp",
+		"/home/rutk1t0r/src/ardupilot/libraries/AP_Mission/AP_Mission.h",
+		"/home/rutk1t0r/src/ardupilot/libraries/AP_Notify/AP_Notify.h",
+		"/home/rutk1t0r/src/ardupilot/libraries/AP_Scheduler/examples/Scheduler_test/Scheduler_test.cpp",
+		"/home/rutk1t0r/src/ardupilot/libraries/AP_HAL_QURT/Scheduler.cpp",
+		"/home/rutk1t0r/src/ardupilot/libraries/AP_HAL_QURT/HAL_QURT_Class.cpp",
+		"/home/rutk1t0r/src/ardupilot/libraries/AP_HAL/AP_HAL_Namespace.h",
 		"/home/rutk1t0r/src/ardupilot/libraries/AP_InertialSensor/AP_InertialSensor.cpp",
 		"/home/rutk1t0r/src/ardupilot/APMrover2/Parameters.h",
-		"/home/rutk1t0r/src/ardupilot/ArduCopter/config.h",
-		"/home/rutk1t0r/src/ardupilot/ArduCopter/sensors.cpp",
-		"/home/rutk1t0r/src/ardupilot/ArduCopter/switches.cpp",
-		"/home/rutk1t0r/src/ardupilot/ArduCopter/Parameters.h",
 		"/home/rutk1t0r/src/ardupilot/libraries/AP_HAL_QURT/Scheduler.h",
-		"/home/rutk1t0r/src/ardupilot/ArduCopter/AP_State.cpp",
 		"/home/rutk1t0r/src/ardupilot/libraries/RC_Channel/RC_Channel_aux.cpp",
 		"/home/rutk1t0r/src/ardupilot/libraries/RC_Channel/RC_Channel_aux.h",
-		"/home/rutk1t0r/src/ardupilot/ArduCopter/defines.h",
 		"/home/rutk1t0r/src/ardupilot/libraries/Filter/LowPassFilter.h",
 		"/home/rutk1t0r/src/ardupilot/libraries/AP_HAL_Empty/RCOutput.cpp",
-		"/home/rutk1t0r/src/ardupilot/ArduCopter/system.cpp",
 		"/home/rutk1t0r/src/ardupilot/libraries/AP_Scheduler/AP_Scheduler.h",
 		"/home/rutk1t0r/src/ardupilot/libraries/AP_Scheduler/AP_Scheduler.cpp",
-		"/home/rutk1t0r/src/ardupilot/ArduCopter/flight_mode.cpp",
 		"/home/rutk1t0r/src/ardupilot/ArduCopter/perf_info.cpp",
 		"/home/rutk1t0r/src/ardupilot/libraries/AP_HAL/utility/functor.h",
 		"/home/rutk1t0r/src/ardupilot/modules/PX4Firmware/src/modules/systemlib/perf_counter.c",
 		"/home/rutk1t0r/src/ardupilot/modules/PX4Firmware/src/modules/systemlib/perf_counter.h",
-		"/home/rutk1t0r/src/ardupilot/libraries/AP_HAL/Scheduler.h",
-		"/home/rutk1t0r/src/ardupilot/libraries/RC_Channel/RC_Channel.cpp",
-		"/home/rutk1t0r/src/ardupilot/libraries/RC_Channel/RC_Channel.h",
-		"/home/rutk1t0r/src/ardupilot/ArduCopter/Parameters.cpp",
-		"/home/rutk1t0r/src/ardupilot/libraries/AP_Motors/AP_MotorsMatrix.cpp",
-		"/home/rutk1t0r/src/ardupilot/libraries/AP_Motors/AP_MotorsMulticopter.cpp",
-		"/home/rutk1t0r/src/ardupilot/ArduCopter/motors.cpp",
 		"/home/rutk1t0r/src/ardupilot/libraries/AP_HAL_PX4/system.cpp",
 		"/home/rutk1t0r/src/ardupilot/ArduCopter/Log.cpp",
-		"/home/rutk1t0r/src/ardupilot/ArduCopter/GCS_Mavlink.cpp",
-		"/home/rutk1t0r/src/ardupilot/libraries/AP_Motors/AP_Motors_Class.h",
-		"/home/rutk1t0r/src/ardupilot/ArduCopter/takeoff.cpp",
-		"/home/rutk1t0r/src/ardupilot/ArduCopter/arming_checks.cpp",
-		"/home/rutk1t0r/src/ardupilot/ArduCopter/failsafe.cpp",
-		"/home/rutk1t0r/src/ardupilot/libraries/AP_RCMapper/AP_RCMapper.h",
-		"/home/rutk1t0r/src/ardupilot/libraries/AP_RCMapper/AP_RCMapper.cpp",
 		"/home/rutk1t0r/src/ardupilot/ArduCopter/motor_test.cpp",
-		"/home/rutk1t0r/src/ardupilot/ArduCopter/ArduCopter.cpp",
-		"/home/rutk1t0r/src/ardupilot/ArduCopter/control_newflightmode.cpp",
-		"/home/rutk1t0r/src/ardupilot/ArduCopter/radio.cpp",
-		"/home/rutk1t0r/src/ardupilot/libraries/AP_HAL_PX4/RCInput.cpp",
-		"/home/rutk1t0r/src/ardupilot/libraries/AP_Motors/AP_MotorsMulticopter.h",
 		"/home/rutk1t0r/src/ardupilot/ArduCopter/setup.cpp",
-		"/home/rutk1t0r/src/ardupilot/libraries/AP_Param/AP_Param.h",
 		"/home/rutk1t0r/src/ardupilot/libraries/AP_HAL/utility/BetterStream.h",
 		"/home/rutk1t0r/src/ardupilot/ArduCopter/Parameters.cpp.d",
 		"/home/rutk1t0r/src/ardupilot/libraries/AP_HAL/examples/RCOutput/RCOutput.cpp",
@@ -238,34 +261,23 @@
 		"/home/rutk1t0r/src/ardupilot/libraries/APM_Control/AP_PitchController.h",
 		"/home/rutk1t0r/src/ardupilot/libraries/DataFlash/LogStructure.h",
 		"/home/rutk1t0r/src/ardupilot/libraries/DataFlash/DataFlash.h",
-		"/home/rutk1t0r/src/ardupilot/libraries/AP_Scheduler/examples/Scheduler_test/Scheduler_test.cpp",
 		"/home/rutk1t0r/src/ardupilot/ArduCopter/heli_control_acro.cpp",
-		"/home/rutk1t0r/src/ardupilot/ArduCopter/control_stabilize.cpp",
 		"/home/rutk1t0r/src/ardupilot/modules/PX4NuttX/nuttx/include/sys/types.h",
 		"/home/rutk1t0r/src/ardupilot/libraries/AP_Param/AP_Param.cpp",
 		"/home/rutk1t0r/src/ardupilot/libraries/AP_Vehicle/AP_Vehicle_Type.h",
 		"/home/rutk1t0r/src/ardupilot/modules/PX4Firmware/src/platforms/posix/px4_layer/drv_hrt.c",
 		"/home/rutk1t0r/src/ardupilot/modules/PX4Firmware/src/drivers/drv_hrt.h",
 		"/home/rutk1t0r/src/ardupilot/modules/PX4Firmware/src/drivers/stm32/drv_hrt.c",
-		"/home/rutk1t0r/src/ardupilot/libraries/AP_HAL_PX4/HAL_PX4_Class.cpp",
 		"/home/rutk1t0r/src/ardupilot/libraries/AP_HAL_PX4/Scheduler.h",
 		"/home/rutk1t0r/src/ardupilot/libraries/AP_HAL_PX4/AP_HAL_PX4_Namespace.h",
 		"/home/rutk1t0r/src/ardupilot/libraries/AP_HAL_PX4/HAL_PX4_Class.h",
-		"/home/rutk1t0r/src/ardupilot/libraries/AP_HAL/RCOutput.h",
-		"/home/rutk1t0r/src/ardupilot/libraries/AP_HAL_PX4/RCOutput.cpp",
 		"/home/rutk1t0r/src/ardupilot/libraries/AP_HAL/GPIO.h",
-		"/home/rutk1t0r/src/ardupilot/libraries/AP_HAL_PX4/RCOutput.h",
 		"/home/rutk1t0r/src/ardupilot/libraries/AP_HAL_QURT/dsp_main.cpp",
 		"/home/rutk1t0r/src/ardupilot/ArduCopter/control_poshold.cpp",
-		"/home/rutk1t0r/src/ardupilot/libraries/AC_AttitudeControl/AC_PosControl.h",
 		"/home/rutk1t0r/src/ardupilot/libraries/AP_InertialNav/AP_InertialNav.h",
-		"/home/rutk1t0r/src/ardupilot/libraries/AP_Baro/AP_Baro.h",
-		"/home/rutk1t0r/src/ardupilot/libraries/AC_AttitudeControl/AC_AttitudeControl.cpp",
 		"/home/rutk1t0r/src/ardupilot/modules/PX4NuttX/nuttx/libc/math/lib_fabsf.c",
 		"/home/rutk1t0r/src/ardupilot/libraries/AP_Motors/AP_MotorsQuad.cpp",
-		"/home/rutk1t0r/src/ardupilot/libraries/AP_Motors/AP_MotorsMatrix.h",
 		"/home/rutk1t0r/src/ardupilot/libraries/AP_Motors/AP_MotorsTri.cpp",
-		"/home/rutk1t0r/src/ardupilot/libraries/AP_Motors/AP_MotorsQuad.h",
 		"/home/rutk1t0r/src/ardupilot/libraries/AP_Menu/AP_Menu.h",
 		"/home/rutk1t0r/src/ardupilot/libraries/AP_HAL/examples/RCOutput2/RCOutput.cpp",
 		"/home/rutk1t0r/src/ardupilot/libraries/RC_Channel/examples/RC_UART/RC_UART.cpp",
@@ -273,34 +285,13 @@
 		"/home/rutk1t0r/src/ardupilot/libraries/AP_HAL/examples/RCOutput2/Makefile",
 		"/home/rutk1t0r/src/ardupilot/libraries/AP_HAL/examples/RCOutput/make.inc",
 		"/home/rutk1t0r/src/ardupilot/libraries/AP_ServoRelayEvents/AP_ServoRelayEvents.cpp",
-		"/home/rutk1t0r/src/ardupilot/libraries/AC_AttitudeControl/AC_AttitudeControl_Multi.h",
 		"/home/rutk1t0r/src/ardupilot/libraries/AC_AttitudeControl/AC_AttitudeControl_Multi.cpp",
 		"/home/rutk1t0r/src/ardupilot/libraries/AC_AttitudeControl/AC_AttitudeControl.h",
 		"/home/rutk1t0r/src/ardupilot/libraries/SITL/SIM_Multicopter.h",
 		"/home/rutk1t0r/src/ardupilot/libraries/AP_Vehicle/AP_Vehicle.h",
-		"/home/rutk1t0r/src/ardupilot/ArduCopter/Attitude.cpp",
 		"/home/rutk1t0r/src/ardupilot/libraries/AP_Math/matrix3.cpp",
-		"/home/rutk1t0r/src/ardupilot/libraries/AP_Math/AP_Math.h",
 		"/home/rutk1t0r/src/ardupilot/ArduPlane/quadplane.h",
-		"/home/rutk1t0r/src/ardupilot/libraries/AP_HAL/examples/RCInput/RCInput.cpp",
-		"/home/rutk1t0r/src/ardupilot/libraries/AP_HAL_PX4/RCInput.h",
-		"/home/rutk1t0r/src/ardupilot/modules/PX4Firmware/src/drivers/drv_rc_input.h",
-		"/home/rutk1t0r/src/ardupilot/modules/PX4Firmware/src/modules/uORB/topics/input_rc.h",
-		"/home/rutk1t0r/src/ardupilot/modules/PX4NuttX/nuttx/sched/pthread_mutexlock.c",
-		"/home/rutk1t0r/src/ardupilot/libraries/AP_Motors/AP_MotorsOctaQuad.cpp",
-		"/home/rutk1t0r/src/ardupilot/modules/PX4Firmware/src/drivers/drv_pwm_output.h",
-		"/home/rutk1t0r/src/ardupilot/modules/PX4Firmware/src/modules/uORB/uORB.h",
-		"/home/rutk1t0r/src/ardupilot/modules/PX4Firmware/src/modules/uORB/uORB.cpp",
-		"/home/rutk1t0r/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
-		"/home/rutk1t0r/src/ardupilot/libraries/AC_PID/AC_PID.h",
-		"/home/rutk1t0r/src/ardupilot/modules/PX4Firmware/src/drivers/px4io/px4io.cpp",
-		"/home/rutk1t0r/src/ardupilot/libraries/AP_Notify/AP_Notify.h",
-		"/home/rutk1t0r/src/ardupilot/modules/PX4Firmware/src/drivers/px4fmu/fmu.cpp",
-		"/home/rutk1t0r/src/ardupilot/.tags_sorted_by_file",
-		"/home/rutk1t0r/src/ardupilot/modules/PX4Firmware/ROMFS/px4fmu_common/init.d/4009_qav250",
-		"/home/rutk1t0r/src/ardupilot/modules/PX4Firmware/src/modules/systemlib/circuit_breaker.cpp",
-		"/home/rutk1t0r/src/ardupilot/libraries/AP_Math/AP_Math.cpp",
-		"/home/rutk1t0r/src/ardupilot/ArduCopter/control_rtl.cpp"
+		"/home/rutk1t0r/src/ardupilot/libraries/AP_HAL/examples/RCInput/RCInput.cpp"
 	],
 	"find":
 	{
@@ -308,7 +299,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 108.0,
+		"height": 0.0,
 		"where_history":
 		[
 			""
@@ -319,6 +310,20 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"takeoff_state",
+			"ap.using_interlock",
+			"set_throttle_zero_flag",
+			"ap.throttle_zero",
+			"update_flight_mode",
+			"define AUTO_DISARMING_DELAY",
+			"disarm_delay",
+			"constrain",
+			"constrains",
+			"set_desired_spool_state",
+			"default_dead_zones",
+			"channel_throttle",
+			"rc_3",
+			"AP_HAL",
 			"CONFIG_HAL_BOARD",
 			"failsafe_check",
 			"auto_armed",
@@ -372,373 +377,8 @@
 	"groups":
 	[
 		{
-			"selected": 9,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "ArduCopter/radio.cpp",
-					"settings":
-					{
-						"buffer_size": 7688,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3860,
-								3860
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1820.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "libraries/RC_Channel/RC_Channel.cpp",
-					"settings":
-					{
-						"buffer_size": 13811,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4542,
-								4542
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 4100.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "libraries/AP_HAL/Scheduler.h",
-					"settings":
-					{
-						"buffer_size": 1953,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								815,
-								815
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C Improved/C Improved.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 504.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "libraries/AP_AHRS/AP_AHRS_NavEKF.h",
-					"settings":
-					{
-						"buffer_size": 9549,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1654,
-								1654
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C Improved/C Improved.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 924.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "libraries/AP_InertialSensor/AP_InertialSensor.h",
-					"settings":
-					{
-						"buffer_size": 16219,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1768,
-								1768
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C Improved/C Improved.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 6092.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "libraries/AP_HAL_PX4/HAL_PX4_Class.cpp",
-					"settings":
-					{
-						"buffer_size": 10172,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								871,
-								871
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "ArduCopter/ArduCopter.cpp",
-					"settings":
-					{
-						"buffer_size": 20261,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4353,
-								4353
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 14835.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "ArduCopter/motors.cpp",
-					"settings":
-					{
-						"buffer_size": 10010,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4903,
-								4903
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3164.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "ArduCopter/arming_checks.cpp",
-					"settings":
-					{
-						"buffer_size": 26655,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								453,
-								453
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "ArduCopter/config.h",
-					"settings":
-					{
-						"buffer_size": 21415,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6805,
-								6805
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C Improved/C Improved.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 4652.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "ArduCopter/failsafe.cpp",
-					"settings":
-					{
-						"buffer_size": 2069,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								823,
-								823
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 576.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "ArduCopter/system.cpp",
-					"settings":
-					{
-						"buffer_size": 12730,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4995,
-								4995
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 4052.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "libraries/AP_HAL_QURT/Scheduler.cpp",
-					"settings":
-					{
-						"buffer_size": 6764,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3230,
-								3230
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2924.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -798,6 +438,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 289.0,
+	"side_bar_width": 230.0,
 	"status_bar_visible": true
 }

@@ -136,7 +136,7 @@ float Copter::get_pilot_desired_throttle(int16_t throttle_control)
     float throttle_out;
 
     int16_t mid_stick = channel_throttle->get_control_mid();
-
+    //hal.console->printf("in the stabilize mode throttle value:%u\n", throttle_control);
     // ensure reasonable throttle values
     throttle_control = constrain_int16(throttle_control,0,1000);
     // ensure mid throttle is set within a reasonable range

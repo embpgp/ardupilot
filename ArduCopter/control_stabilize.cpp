@@ -26,7 +26,10 @@ void Copter::stabilize_run()
     float target_roll, target_pitch;
     float target_yaw_rate;
     float pilot_throttle_scaled;
-
+    /*hal.console->printf("motor.armed:%s,ap.throttle_zero:%s,motors.interlock:%s\n",\
+        motors.armed()?"true":"false",\
+        ap.throttle_zero?"true":"false",\
+        motors.get_interlock()?"true":"false");*/
     // if not armed set throttle to zero and exit immediately
     if (!motors.armed() || ap.throttle_zero || !motors.get_interlock()) {
         motors.set_desired_spool_state(AP_Motors::DESIRED_SPIN_WHEN_ARMED);
@@ -48,12 +51,16 @@ void Copter::stabilize_run()
 
     // get pilot's desired throttle
     pilot_throttle_scaled = get_pilot_desired_throttle(channel_throttle->get_control_in());
-
+    //hal.console->printf("channel_throttle:%u and scaled:%f\n", channel_throttle->get_control_in(), pilot_throttle_scaled);
     // call attitude controller
     attitude_control.input_euler_angle_roll_pitch_euler_rate_yaw_smooth(target_roll, target_pitch, target_yaw_rate, get_smoothing_gain());
 
     // body-frame rate controller is run directly from 100hz loop
-
+    /*hal.console->printf("roll:%d**pitch:%d**throttle:%d**yaw:%d\n", \
+        channel_roll->get_control_in(),\
+        channel_pitch->get_control_in(),\
+        channel_throttle->get_control_in(),\
+        channel_yaw->get_control_in());  */
     // output pilot's throttle
     attitude_control.set_throttle_out(pilot_throttle_scaled, true, g.throttle_filt);
 }

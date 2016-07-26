@@ -146,7 +146,7 @@ AP_MotorsMulticopter::AP_MotorsMulticopter(uint16_t loop_rate, uint16_t speed_hz
     _batt_voltage_filt.reset(1.0f);
 
     // default throttle ranges (i.e. _min_throttle, _throttle_radio_min, _throttle_radio_max)
-    set_throttle_range(130, 1100, 1900);
+    set_throttle_range(130, 1100, 1900);    //所以默认有怠速
 };
 
 // output - sends commands to the motors
@@ -165,13 +165,13 @@ void AP_MotorsMulticopter::output()
     output_logic();
 
     // calculate thrust
-    output_armed_stabilizing();
+    output_armed_stabilizing();  //根据各个轴的误差输出计算thrust[i]
 
     // apply any thrust compensation for the frame
     thrust_compensation();
     
     // convert rpy_thrust values to pwm
-    output_to_motors();
+    output_to_motors();      
 };
 
 // sends minimum values out to the motors
@@ -358,8 +358,8 @@ void AP_MotorsMulticopter::set_throttle_range(uint16_t min_throttle, int16_t rad
 {
     // sanity check
     if ((radio_max > radio_min) && (min_throttle < (radio_max - radio_min))) {
-        _throttle_radio_min = radio_min;
-        _throttle_radio_max = radio_max;
+        _throttle_radio_min = radio_min; //1100
+        _throttle_radio_max = radio_max; //1900
     }
     // update _min_throttle
     _min_throttle = (float)min_throttle * ((get_pwm_output_max() - get_pwm_output_min()) / 1000.0f);

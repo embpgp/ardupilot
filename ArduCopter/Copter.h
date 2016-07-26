@@ -579,6 +579,8 @@ private:
     static const AP_Scheduler::Task scheduler_tasks[];
     static const AP_Param::Info var_info[];
     static const struct LogStructure log_structure[];
+    static bool arm_ok;   //自定义解锁开关,默认构造为false，表示没有进行油门解锁
+
     
      //newflightmode
     bool newflightmode_init(bool ignore_checks);
@@ -588,7 +590,7 @@ private:
 
     //自己新加的方法，使得自动解锁实现,直接模拟遥控器变量试试，10Hz调度
     void auto_arm(void);
-
+    void auto_althold_fly(void);
 
     void compass_accumulate(void);
     void compass_cal_update(void);

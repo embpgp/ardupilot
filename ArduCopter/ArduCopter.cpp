@@ -76,7 +76,7 @@
 #include "Copter.h"
 
 #define SCHED_TASK(func, rate_hz, max_time_micros) SCHED_TASK_CLASS(Copter, &copter, func, rate_hz, max_time_micros)
-
+#define FLY_THROTTLE 320
 /*
   scheduler table for fast CPUs - all regular tasks apart from the fast_loop()
   should be listed here, along with how often they should be called (in hz)
@@ -93,8 +93,11 @@ const AP_Scheduler::Task Copter::scheduler_tasks[] = {
     SCHED_TASK(read_aux_switches,     10,     50),
     SCHED_TASK(arm_motors_check,      10,     50),
     SCHED_TASK(auto_disarm_check,     10,     50),
-
+    /*
+     *新增的自动解锁任务，伴随同期任务进行
+     */
     SCHED_TASK(auto_arm,              10,     50),
+    SCHED_TASK(auto_althold_fly,      100,    100),
 
     SCHED_TASK(auto_trim,             10,     75),
     SCHED_TASK(read_rangefinder,      20,    100),
@@ -157,26 +160,93 @@ const AP_Scheduler::Task Copter::scheduler_tasks[] = {
 };
 
 
+//静态变量初始化
+bool Copter::arm_ok = false;
+
 //自动解锁功能已经实现
+//10HZ运行，和遥控接受频率以及自动检测上锁同步
 void Copter::auto_arm()
 {
-    //等待15s等待所有的就绪
-    static uint16_t delay_15s = 0;
-    static uint16_t continue_2s = 0;
-    static bool arm_ok = false;
+    //等待10s等待所有的就绪
+    static uint16_t delay_s = 0;
+    static uint16_t continue_s = 0;
     if(!arm_ok)
     {
-        if(++delay_15s >= 150)
+        if(++delay_s >= 100)
         {
             channel_throttle->set_control_in(0);
             channel_yaw->set_control_in(4200);
-            if(++continue_2s >= 25)  //保持上述
+            if(++continue_s >= 25)  //保持上述
             {
-                arm_ok = true;     //应该解锁完毕了    
+                channel_yaw->set_control_in(0);//默认 
+                arm_ok = true;     //应该解锁完毕了  
             }
         }
     }
 }
+//100hz运行频率
+void Copter::auto_althold_fly()
+{
+    static uint32_t fly_time_s = 0;
+    static uint32_t count = 0;
+    static uint16_t stop_count = 0;//为了自动上锁
+    static int throttle_temp = 0;//油门值控制
+    static bool land_flag = false;//降落后将不在进行
+    if (!hal.rcin->new_input())//检测是否有遥控数据过来,px4底层提供的数据
+    {
+        if(arm_ok && !land_flag)//先检测是否2s自动解锁了，有一个bool值
+        {
+            //hal.console->printf("auto_althold throttle:%d\tcount:%u\tfly_time_s:%u\n", throttle_temp, count, fly_time_s);
+            if(++count >= 200)      //２s后开始起飞
+            {
+                g.rc_5.set_radio_in(1100);  //设置第五通道
+                ap.using_interlock = true;  //motor运行标志
+                ap.throttle_zero = false;   //必须搞定的标志位，在radio函数中被设置
+           // hal.console->printf("mode:%u\n",(uint16_t)control_mode);
+                if(++fly_time_s >= 1000)   //10s后开始减油门，相当于加了10s的油门
+                {
+                    --throttle_temp;             
+                }
+                else
+                {
+                    ++throttle_temp;             
+                }
+                //限幅0~FLY_THROTTLE
+                if(throttle_temp < 0)
+                {
+                    throttle_temp = 0;
+                }
+                else if(throttle_temp >= FLY_THROTTLE)
+                {
+                    throttle_temp = FLY_THROTTLE;
+                }
+
+                if(throttle_temp > 0)
+                {
+                    //调用方法,模拟遥控器的数据
+                    channel_throttle->set_control_in(throttle_temp);
+                    channel_roll->set_control_in(0);
+                    channel_pitch->set_control_in(0);
+                    channel_yaw->set_control_in(0);
+                }                 
+                else
+                {
+                    //自稳状态下2s上锁
+                    set_mode(STABILIZE, MODE_REASON_THROTTLE_LAND_ESCAPE);
+                    channel_throttle->set_control_in(0);
+                    channel_yaw->set_control_in(-4200);
+                    //持续2.5s
+                    if(++stop_count >= 250)
+                    {
+                        land_flag = true;
+                    }
+                }
+            }
+        }
+        
+    }
+}
+
 void Copter::setup() 
 {
     cliSerial = hal.console;
@@ -291,7 +361,7 @@ void Copter::fast_loop()
 
     // run the attitude controllers   各种飞行模式的匹配
     update_flight_mode();
-
+    //hal.console->printf("main loop for update mode\n");
     // update home from EKF if necessary
     update_home_from_EKF();
 
