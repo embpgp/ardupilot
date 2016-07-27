@@ -31,6 +31,7 @@ public:
     /// update - updates led according to timed_updated.  Should be called at 50Hz
     void update();
 
+    void play_by_myself(const uint8_t tone_index);
 private:
     /// play_tune - play one of the pre-defined tunes
     void play_tone(const uint8_t tone_index);

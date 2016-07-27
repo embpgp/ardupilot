@@ -338,6 +338,28 @@
  /home/rutk1t0r/src/ardupilot/libraries/AP_Motors/AP_Motors_Class.h \
  /home/rutk1t0r/src/ardupilot/libraries/AP_Notify/AP_Notify.h \
  /home/rutk1t0r/src/ardupilot/libraries/AP_Notify/NotifyDevice.h \
+ /home/rutk1t0r/src/ardupilot/libraries/AP_Notify/AP_BoardLED.h \
+ /home/rutk1t0r/src/ardupilot/libraries/AP_Notify/Buzzer.h \
+ /home/rutk1t0r/src/ardupilot/libraries/AP_Notify/Display_SSD1306_I2C.h \
+ /home/rutk1t0r/src/ardupilot/libraries/AP_Notify/Display.h \
+ /home/rutk1t0r/src/ardupilot/libraries/AP_Notify/ExternalLED.h \
+ /home/rutk1t0r/src/ardupilot/libraries/AP_Notify/NavioLED_I2C.h \
+ /home/rutk1t0r/src/ardupilot/libraries/AP_Notify/NavioLED.h \
+ /home/rutk1t0r/src/ardupilot/libraries/AP_Notify/RGBLed.h \
+ /home/rutk1t0r/src/ardupilot/libraries/AP_Notify/OreoLED_PX4.h \
+ /home/rutk1t0r/src/ardupilot/modules/PX4Firmware/src/drivers/drv_oreoled.h \
+ /home/rutk1t0r/src/ardupilot/modules/PX4Firmware/Build/px4fmu-v2_APM.build/nuttx-export/include/sys/ioctl.h \
+ /home/rutk1t0r/src/ardupilot/modules/PX4Firmware/Build/px4fmu-v2_APM.build/nuttx-export/include/nuttx/fs/ioctl.h \
+ /home/rutk1t0r/src/ardupilot/modules/PX4Firmware/Build/px4fmu-v2_APM.build/nuttx-export/include/nuttx/serial/tioctl.h \
+ /home/rutk1t0r/src/ardupilot/libraries/AP_Notify/RCOutputRGBLed.h \
+ /home/rutk1t0r/src/ardupilot/libraries/AP_Notify/ToneAlarm_Linux.h \
+ /home/rutk1t0r/src/ardupilot/libraries/AP_Notify/ToneAlarm_PX4.h \
+ /home/rutk1t0r/src/ardupilot/libraries/AP_Notify/ToneAlarm_PX4_Solo.h \
+ /home/rutk1t0r/src/ardupilot/libraries/AP_Notify/ToshibaLED.h \
+ /home/rutk1t0r/src/ardupilot/libraries/AP_Notify/ToshibaLED_I2C.h \
+ /home/rutk1t0r/src/ardupilot/libraries/AP_Notify/ToshibaLED_PX4.h \
+ /home/rutk1t0r/src/ardupilot/libraries/AP_Notify/VRBoard_LED.h \
+ /home/rutk1t0r/src/ardupilot/libraries/AP_Notify/DiscreteRGBLed.h \
  /home/rutk1t0r/src/ardupilot/libraries/RC_Channel/RC_Channel.h \
  /home/rutk1t0r/src/ardupilot/libraries/RC_Channel/RC_Channel_aux.h \
  /home/rutk1t0r/src/ardupilot/libraries/AP_Motors/AP_MotorsMulticopter.h \

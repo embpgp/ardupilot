@@ -16,12 +16,36 @@
  */
 #pragma once
 
+
+
+
+
+
 #include <AP_Common/AP_Common.h>
 #include <AP_Param/AP_Param.h>
 #include <GCS_MAVLink/GCS_MAVLink.h>
 
 #include "NotifyDevice.h"
 
+
+
+
+
+#include "AP_BoardLED.h"
+#include "Buzzer.h"
+#include "Display_SSD1306_I2C.h"
+#include "ExternalLED.h"
+#include "NavioLED_I2C.h"
+#include "OreoLED_PX4.h"
+#include "RCOutputRGBLed.h"
+#include "ToneAlarm_Linux.h"
+#include "ToneAlarm_PX4.h"
+#include "ToneAlarm_PX4_Solo.h"
+#include "ToshibaLED.h"
+#include "ToshibaLED_I2C.h"
+#include "ToshibaLED_PX4.h"
+#include "VRBoard_LED.h"
+#include "DiscreteRGBLed.h"
 
 #ifndef AP_NOTIFY_OREOLED
 #define AP_NOTIFY_OREOLED 0
@@ -115,3 +139,6 @@ private:
     AP_Int8 _rgb_led_brightness;
     AP_Int8 _buzzer_enable;
 };
+
+
+extern ToneAlarm_PX4 tonealarm;

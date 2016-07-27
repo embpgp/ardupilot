@@ -6,6 +6,18 @@
 		},
 		{
 			"path": "/media/rutk1t0r/PGP/项目/四轴飞行器/老飞机/code/ANO_USB"
+		},
+		{
+			"path": "/media/rutk1t0r/PGP/项目/四轴飞行器/老飞机/code/ANO-MR-F1"
+		},
+		{
+			"path": "/home/rutk1t0r/src/PX4"
+		},
+		{
+			"path": "/home/rutk1t0r/src/Firmware"
+		},
+		{
+			"path": "/media/rutk1t0r/PGP/项目/四轴飞行器/匿名小四/ANO-MR-F1"
 		}
 	]
 }

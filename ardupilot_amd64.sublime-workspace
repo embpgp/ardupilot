@@ -115,6 +115,54 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "libraries/AP_HAL_PX4/RCInput.cpp",
+			"settings":
+			{
+				"buffer_size": 3248,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "ArduCopter/ArduCopter.cpp",
+			"settings":
+			{
+				"buffer_size": 23262,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "modules/PX4Firmware/src/modules/uORB/topics/input_rc.h",
+			"settings":
+			{
+				"buffer_size": 3824,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "modules/PX4NuttX/nuttx/sched/pthread_mutexlock.c",
+			"settings":
+			{
+				"buffer_size": 6839,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "modules/PX4Firmware/src/platforms/qurt/stubs/stubs_posix.c",
+			"settings":
+			{
+				"buffer_size": 2258,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "ArduCopter/Copter.cpp",
+			"settings":
+			{
+				"buffer_size": 3943,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -164,13 +212,16 @@
 	},
 	"file_history":
 	[
+		"/media/rutk1t0r/PGP/项目/四轴飞行器/老飞机/code/ANO-MR-F1/APP/Control.c",
+		"/home/rutk1t0r/src/ardupilot/ArduCopter/Copter.h",
+		"/home/rutk1t0r/src/ardupilot/ArduCopter/Copter.cpp",
+		"/home/rutk1t0r/src/ardupilot/APMrover2/APMrover2.cpp",
+		"/home/rutk1t0r/src/ardupilot/ArduCopter/APM_Config.h",
 		"/home/rutk1t0r/src/ardupilot/ArduCopter/defines.h",
 		"/home/rutk1t0r/src/ardupilot/ArduCopter/control_althold.cpp",
 		"/home/rutk1t0r/src/ardupilot/ArduCopter/takeoff.cpp",
-		"/home/rutk1t0r/src/ardupilot/ArduCopter/Copter.cpp",
 		"/home/rutk1t0r/src/ardupilot/libraries/AC_AttitudeControl/AC_PosControl.h",
 		"/home/rutk1t0r/src/ardupilot/libraries/AC_AttitudeControl/AC_AttitudeControl_Multi.h",
-		"/home/rutk1t0r/src/ardupilot/ArduCopter/Copter.h",
 		"/home/rutk1t0r/src/ardupilot/ArduCopter/flight_mode.cpp",
 		"/home/rutk1t0r/src/ardupilot/ArduCopter/motors.cpp",
 		"/home/rutk1t0r/src/ardupilot/libraries/AP_Motors/AP_Motors_Class.h",
@@ -288,10 +339,7 @@
 		"/home/rutk1t0r/src/ardupilot/libraries/AC_AttitudeControl/AC_AttitudeControl_Multi.cpp",
 		"/home/rutk1t0r/src/ardupilot/libraries/AC_AttitudeControl/AC_AttitudeControl.h",
 		"/home/rutk1t0r/src/ardupilot/libraries/SITL/SIM_Multicopter.h",
-		"/home/rutk1t0r/src/ardupilot/libraries/AP_Vehicle/AP_Vehicle.h",
-		"/home/rutk1t0r/src/ardupilot/libraries/AP_Math/matrix3.cpp",
-		"/home/rutk1t0r/src/ardupilot/ArduPlane/quadplane.h",
-		"/home/rutk1t0r/src/ardupilot/libraries/AP_HAL/examples/RCInput/RCInput.cpp"
+		"/home/rutk1t0r/src/ardupilot/libraries/AP_Vehicle/AP_Vehicle.h"
 	],
 	"find":
 	{
@@ -377,8 +425,173 @@
 	"groups":
 	[
 		{
+			"selected": 5,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "libraries/AP_HAL_PX4/RCInput.cpp",
+					"settings":
+					{
+						"buffer_size": 3248,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								814,
+								814
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 347.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "ArduCopter/ArduCopter.cpp",
+					"settings":
+					{
+						"buffer_size": 23262,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3725,
+								3725
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1518.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "modules/PX4Firmware/src/modules/uORB/topics/input_rc.h",
+					"settings":
+					{
+						"buffer_size": 3824,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2655,
+								2655
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C Improved/C Improved.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1329.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "modules/PX4NuttX/nuttx/sched/pthread_mutexlock.c",
+					"settings":
+					{
+						"buffer_size": 6839,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5355,
+								5355
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C Improved/C Improved.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3837.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "modules/PX4Firmware/src/platforms/qurt/stubs/stubs_posix.c",
+					"settings":
+					{
+						"buffer_size": 2258,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1389,
+								1389
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C Improved/C Improved.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1931.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "ArduCopter/Copter.cpp",
+					"settings":
+					{
+						"buffer_size": 3943,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								947,
+								947
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 396.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],

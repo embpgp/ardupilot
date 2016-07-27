@@ -121,6 +121,12 @@ void ToneAlarm_PX4::play_tone(const uint8_t tone_index)
     play_string(tone_requested.str);
 }
 
+//公开直接调用
+void ToneAlarm_PX4::play_by_myself(const uint8_t tone_index)
+{
+    play_tone(tone_index);
+}
+
 void ToneAlarm_PX4::play_string(const char *str) {
     write(_tonealarm_fd, str, strlen(str) + 1);
 }

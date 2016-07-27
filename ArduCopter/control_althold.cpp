@@ -78,13 +78,13 @@ void Copter::althold_run()
     } else {
         althold_state = AltHold_Flying;
     }
-    hal.console->printf("3***motors.armed:%s**motor.interlock:%s**ap.auto_arm:%s**takeoff_running:%s**take_trigger:%s**land:%s \n",\
+    /*hal.console->printf("3***motors.armed:%s**motor.interlock:%s**ap.auto_arm:%s**takeoff_running:%s**take_trigger:%s**land:%s \n",\
     motors.armed()? "true":"false",\
     motors.get_interlock()?"true":"false",\
     ap.auto_armed?"true":"false",\
     takeoff_state.running ?"true":"false",\
     takeoff_triggered?"true":"false",\
-    ap.land_complete?"true":"false");
+    ap.land_complete?"true":"false");*/
     // Alt Hold State Machine
     switch (althold_state) {
 
