@@ -76,8 +76,8 @@
 #include "Copter.h"
 #define SCHED_TASK(func, rate_hz, max_time_micros) SCHED_TASK_CLASS(Copter, &copter, func, rate_hz, max_time_micros)
 #define FLY_THROTTLE 300
-//飞行时间,毫秒
-#define FLY_TIME 800
+//飞行时间0.01*s
+#define FLY_TIME 400
 /*
   scheduler table for fast CPUs - all regular tasks apart from the fast_loop()
   should be listed here, along with how often they should be called (in hz)
@@ -194,7 +194,7 @@ void Copter::auto_althold_fly()
     static uint16_t stop_count = 0;//为了自动上锁
     static int throttle_temp = 0;//油门值控制
     static bool land_flag = false;//降落后将不在进行
-    if (!hal.rcin->new_input())//检测是否有遥控数据过来,px4底层提供的数据
+    if (!ap.new_radio_frame)//检测是否有遥控数据过来,px4底层提供的数据
     {
         if(arm_ok && !land_flag)//先检测是否2s自动解锁了，有一个bool值
         {
@@ -202,14 +202,23 @@ void Copter::auto_althold_fly()
             //hal.console->printf("auto_althold throttle:%d\tcount:%u\tfly_time_s:%u\n", throttle_temp, count, fly_time_s);
             if(++count >= 200)      //２s后开始起飞
             {
-                tonealarm.play_by_myself(3);
+                //测试响铃
+                //tonealarm.play_by_myself(3);
                 //
                 ap.using_interlock = true;  //motor运行标志
                 ap.throttle_zero = false;   //必须搞定的标志位，在radio函数中被设置
            // hal.console->printf("mode:%u\n",(uint16_t)control_mode);
                 if(++fly_time_s >= FLY_TIME)   //10s后开始减油门，相当于加了10s的油门
                 {
-                    --throttle_temp;             
+                      
+                    if(fly_time_s >= 800)
+                    {
+                        --throttle_temp;
+                    }          
+                    else
+                    {
+                        throttle_temp = 200; 
+                    }
                 }
                 else
                 {
