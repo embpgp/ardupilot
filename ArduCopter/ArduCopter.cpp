@@ -75,9 +75,9 @@
 
 #include "Copter.h"
 #define SCHED_TASK(func, rate_hz, max_time_micros) SCHED_TASK_CLASS(Copter, &copter, func, rate_hz, max_time_micros)
-#define FLY_THROTTLE 300
-//飞行时间0.01*s
-#define FLY_TIME 400
+
+
+
 /*
   scheduler table for fast CPUs - all regular tasks apart from the fast_loop()
   should be listed here, along with how often they should be called (in hz)
@@ -186,6 +186,22 @@ void Copter::auto_arm()
         }
     }
 }
+/*
+ 解释一下飞行过程，首先是上面的一个１０ｓ钟等待解锁，然后２．５秒之后进行下面的１００hz的自动飞行
+ 检测是否有遥控数据到来，防止发生意外
+ 然后２秒后进行飞行计数，然后对100Hz进行"分频",让控制速度慢下来，不至于很快地冲到阈值
+ 阈值目前设置为自稳模式的37%油门
+ 过程：
+ 前4秒：一直以10Hz的频率++油门，直到阈值370，
+ 4~8秒：固定３５０油门
+ 8~$:一直－－油门，直到为０上锁
+ $~($+2.5)s，上锁
+ */
+
+
+#define FLY_THROTTLE 370
+//飞行时间0.01*s
+#define FLY_TIME 30
 //100hz运行频率
 void Copter::auto_althold_fly()
 {
@@ -199,7 +215,7 @@ void Copter::auto_althold_fly()
         if(arm_ok && !land_flag)//先检测是否2s自动解锁了，有一个bool值
         {
 
-            //hal.console->printf("auto_althold throttle:%d\tcount:%u\tfly_time_s:%u\n", throttle_temp, count, fly_time_s);
+            
             if(++count >= 200)      //２s后开始起飞
             {
                 //测试响铃
@@ -207,17 +223,20 @@ void Copter::auto_althold_fly()
                 //
                 ap.using_interlock = true;  //motor运行标志
                 ap.throttle_zero = false;   //必须搞定的标志位，在radio函数中被设置
-           // hal.console->printf("mode:%u\n",(uint16_t)control_mode);
-                if(++fly_time_s >= FLY_TIME)   //10s后开始减油门，相当于加了10s的油门
+                if( count % 10 == 0)   //every 10 times increase a time
+                {
+                    ++fly_time_s;
+                }
+                if(fly_time_s >= FLY_TIME)   //8s后开始减油门
                 {
                       
-                    if(fly_time_s >= 800)
+                    if(fly_time_s >= 80)
                     {
                         --throttle_temp;
                     }          
                     else
                     {
-                        throttle_temp = 200; 
+                        throttle_temp = 350; 
                     }
                 }
                 else
