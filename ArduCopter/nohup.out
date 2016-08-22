@@ -1,0 +1,93 @@
+Gtk-Message: Failed to load module "unity-gtk-module"
+[4268:0821/025825:INFO:gpu_info_collector_x11.cc(80)] NVCtrl extension does not exist.
+[4268:0821/025826:ERROR:browser_main_loop.cc(226)] Gdk: gdk_window_set_icon_list: icons too large
+[4268:0821/025836:INFO:CONSOLE(16)] ""2016\u5E748\u670821\u65E5 \u4E0A\u53482:58:35 - Starting shadowsocks..."", source: file:///tmp/.org.chromium.Chromium.D2ZBun/main.js (16)
+[4268:0821/025836:INFO:CONSOLE(149)] "{"server":"173.252.220.201","server_port":"42941","password":"69183174","local_port":"1080","method":"aes-256-cfb","share":false}", source: file:///tmp/.org.chromium.Chromium.D2ZBun/main.js (149)
+[4268:0821/025836:INFO:CONSOLE(16)] ""2016\u5E748\u670821\u65E5 \u4E0A\u53482:58:36 - 118ms UDP server listening 127.0.0.1:1080"", source: file:///tmp/.org.chromium.Chromium.D2ZBun/main.js (16)
+[4268:0821/025836:INFO:CONSOLE(16)] ""2016\u5E748\u670821\u65E5 \u4E0A\u53482:58:36 - 120ms local listening at 127.0.0.1:1080"", source: file:///tmp/.org.chromium.Chromium.D2ZBun/main.js (16)
+Gtk-Message: Failed to load module "unity-gtk-module"
+bash: 无法设定终端进程组(-1): 对设备不适当的 ioctl 操作
+bash: 此 shell 中无任务控制
+[4268:0821/030043:INFO:CONSOLE(66)] "Uncaught ReferenceError: alert is not defined", source: /tmp/.org.chromium.Chromium.D2ZBun/update.js (66)
+{ [Error: connect ETIMEDOUT 40.83.182.206:443]
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '40.83.182.206',
+  port: 443 } undefined
+{ [Error: connect ETIMEDOUT 40.83.182.206:443]
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '40.83.182.206',
+  port: 443 } undefined
+{ [Error: connect ETIMEDOUT 40.83.182.206:443]
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '40.83.182.206',
+  port: 443 } undefined
+{ [Error: connect ETIMEDOUT 40.83.182.206:443]
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '40.83.182.206',
+  port: 443 } undefined
+{ [Error: connect ETIMEDOUT 40.83.182.206:443]
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '40.83.182.206',
+  port: 443 } undefined
+Remmina plugin RDP (type=协议) registered.
+Remmina plugin RDPF (type=文件) registered.
+Remmina plugin RDPS (type=首选项) registered.
+Remmina plugin VNC (type=协议) registered.
+Remmina plugin VNCI (type=协议) registered.
+Remmina plugin SFTP (type=协议) registered.
+Remmina plugin SSH (type=协议) registered.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+loading channel cliprdr
+connected to 10.64.210.204:3389
+Remmina plugin RDP (type=协议) registered.
+Remmina plugin RDPF (type=文件) registered.
+Remmina plugin RDPS (type=首选项) registered.
+Remmina plugin VNC (type=协议) registered.
+Remmina plugin VNCI (type=协议) registered.
+Remmina plugin SFTP (type=协议) registered.
+Remmina plugin SSH (type=协议) registered.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+loading channel cliprdr
+connected to 10.64.210.204:3389
+
+(unity-control-center:19780): Clutter-WARNING **: Whoever translated default:LTR did so wrongly.
+[93m[WARN 02:58:21.208013][0m [Environment:161] XDG_SESSION_CLASS not set in this environment!
+[93m[WARN 02:58:21.641805][0m [Preferences:192] '/usr/share/plank/themes/MB-OSXYosemite/dock.theme' is read-only!
+[93m[WARN 02:58:22.919034][0m Failed to fetch xid: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.window 的对象上没有 /org/ayatana/bamf/window/25165830 接口
+[93m[WARN 02:58:22.947221][0m Failed to fetch type: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.window 的对象上没有 /org/ayatana/bamf/window/25165830 接口
+[93m[WARN 02:58:22.977880][0m Failed to fetch monitor: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.window 的对象上没有 /org/ayatana/bamf/window/25165830 接口
+[93m[WARN 02:58:23.017593][0m Failed to fetch maximized state: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.window 的对象上没有 /org/ayatana/bamf/window/25165830 接口
+[93m[WARN 02:58:23.045515][0m Failed to fetch xid: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.window 的对象上没有 /org/ayatana/bamf/window/25165830 接口
+[93m[WARN 02:58:23.083329][0m Unable to fetch children: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.view 的对象上没有 /org/ayatana/bamf/application/311805604 接口
+[93m[WARN 02:58:23.115260][0m Failed to fetch path: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.application 的对象上没有 /org/ayatana/bamf/application/311805604 接口
+[93m[WARN 02:58:23.174076][0m [SurfaceCache:196] Creating surface took WAY TOO LONG (39ms), enabled downscaling for this cache!
+[93m[WARN 02:58:23.257565][0m [SurfaceCache:196] Creating surface took WAY TOO LONG (55ms), enabled downscaling for this cache!
+[93m[WARN 02:58:23.338177][0m [SurfaceCache:196] Creating surface took WAY TOO LONG (50ms), enabled downscaling for this cache!
+[93m[WARN 02:58:36.282537][0m Failed to fetch xids: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.application 的对象上没有 /org/ayatana/bamf/application/0x20c0bc0 接口
+[93m[WARN 02:58:36.305802][0m (Services/WindowControl.c:410):plank_window_control_get_num_windows: runtime check failed: (_tmp2_ != NULL)
+[93m[WARN 02:58:46.937520][0m [PositionManager:683] Without a draw_value there is trouble ahead for 'Terminator'
+[93m[WARN 02:58:46.938135][0m [PositionManager:683] Without a draw_value there is trouble ahead for 'Terminator'
+[93m[WARN 02:58:49.381916][0m [PositionManager:683] Without a draw_value there is trouble ahead for 'Terminator'
+[93m[WARN 02:58:49.382193][0m [PositionManager:683] Without a draw_value there is trouble ahead for 'Terminator'
+[93m[WARN 07:17:37.280099][0m [SurfaceCache:196] Creating surface took WAY TOO LONG (47ms), enabled downscaling for this cache!
+[93m[WARN 07:22:04.159741][0m Failed to fetch xids: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.application 的对象上没有 /org/ayatana/bamf/application/1025480806 接口
+[93m[WARN 07:22:04.182779][0m (Services/WindowControl.c:410):plank_window_control_get_num_windows: runtime check failed: (_tmp2_ != NULL)
+[93m[WARN 07:24:13.643331][0m Failed to fetch xids: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.application 的对象上没有 /org/ayatana/bamf/application/962382798 接口
+[93m[WARN 07:24:13.668371][0m (Services/WindowControl.c:410):plank_window_control_get_num_windows: runtime check failed: (_tmp2_ != NULL)
+[93m[WARN 07:56:04.598105][0m Failed to fetch xids: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.application 的对象上没有 /org/ayatana/bamf/application/1025480806 接口
+[93m[WARN 07:56:04.621171][0m (Services/WindowControl.c:410):plank_window_control_get_num_windows: runtime check failed: (_tmp2_ != NULL)
+[93m[WARN 07:56:06.497242][0m Failed to fetch xids: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.application 的对象上没有 /org/ayatana/bamf/application/1171893912 接口
+[93m[WARN 07:56:06.520909][0m (Services/WindowControl.c:410):plank_window_control_get_num_windows: runtime check failed: (_tmp2_ != NULL)
+[93m[WARN 07:56:10.858144][0m Failed to fetch xids: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.application 的对象上没有 /org/ayatana/bamf/application/744113794 接口
+[93m[WARN 07:56:10.881037][0m (Services/WindowControl.c:410):plank_window_control_get_num_windows: runtime check failed: (_tmp2_ != NULL)
+[93m[WARN 07:58:27.165681][0m [AbstractMain:42] Caught signal (15), exiting

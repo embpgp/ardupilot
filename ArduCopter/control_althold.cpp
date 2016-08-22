@@ -43,11 +43,11 @@ void Copter::althold_run()
     //hal.console->printf("1***g.pilot_v_z_max:%d\t g.pilot_a_z:%d\n", (int)g.pilot_velocity_z_max, (int)g.pilot_accel_z);
     // apply SIMPLE mode transform to pilot inputs
     update_simple_mode();
-    hal.console->printf("2***roll:%d**pitch:%d**throttle:%d**yaw:%d\n", \
+    /*hal.console->printf("2***roll:%d**pitch:%d**throttle:%d**yaw:%d\n", \
         channel_roll->get_control_in(),\
         channel_pitch->get_control_in(),\
         channel_throttle->get_control_in(),\
-        channel_yaw->get_control_in());
+        channel_yaw->get_control_in());*/
     // get pilot desired lean angles
     float target_roll, target_pitch;
     get_pilot_desired_lean_angles(channel_roll->get_control_in(), channel_pitch->get_control_in(), target_roll, target_pitch, attitude_control.get_althold_lean_angle_max());

@@ -231,7 +231,39 @@
 			"file": "ArduCopter/ArduCopter.cpp",
 			"settings":
 			{
-				"buffer_size": 23717,
+				"buffer_size": 24569,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "libraries/RC_Channel/RC_Channel.h",
+			"settings":
+			{
+				"buffer_size": 5730,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "ArduCopter/switches.cpp",
+			"settings":
+			{
+				"buffer_size": 24087,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "ArduCopter/Copter.h",
+			"settings":
+			{
+				"buffer_size": 44916,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "libraries/AP_Baro/AP_Baro.cpp",
+			"settings":
+			{
+				"buffer_size": 14612,
 				"line_ending": "Unix"
 			}
 		},
@@ -255,15 +287,23 @@
 			"file": "ArduCopter/control_althold.cpp",
 			"settings":
 			{
-				"buffer_size": 8056,
+				"buffer_size": 8060,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "libraries/AP_HAL/HAL.h",
+			"file": "libraries/AC_AttitudeControl/AC_PosControl.cpp",
 			"settings":
 			{
-				"buffer_size": 2719,
+				"buffer_size": 38453,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "libraries/AC_AttitudeControl/AC_AttitudeControl.cpp",
+			"settings":
+			{
+				"buffer_size": 32870,
 				"line_ending": "Unix"
 			}
 		},
@@ -280,6 +320,30 @@
 			"settings":
 			{
 				"buffer_size": 10172,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "libraries/AP_Motors/AP_MotorsMatrix.cpp",
+			"settings":
+			{
+				"buffer_size": 15676,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "ArduCopter/defines.h",
+			"settings":
+			{
+				"buffer_size": 21921,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "ArduCopter/Copter.cpp",
+			"settings":
+			{
+				"buffer_size": 3951,
 				"line_ending": "Unix"
 			}
 		}
@@ -332,6 +396,7 @@
 	},
 	"file_history":
 	[
+		"/home/rutk1t0r/src/ardupilot/libraries/AP_HAL/HAL.h",
 		"/home/rutk1t0r/github/personal_blog/embpgp.github.io/themes/next/_config.yml",
 		"/home/rutk1t0r/github/personal_blog/embpgp.github.io/source/_posts/Hello-world.md",
 		"/home/rutk1t0r/github/personal_blog/embpgp.github.io/_config.yml",
@@ -348,7 +413,6 @@
 		"/home/rutk1t0r/src/ardupilot/libraries/AC_AttitudeControl/AC_AttitudeControl.cpp",
 		"/home/rutk1t0r/src/ardupilot/ArduCopter/control_stabilize.cpp",
 		"/home/rutk1t0r/src/ardupilot/ArduCopter/flight_mode.cpp",
-		"/home/rutk1t0r/src/ardupilot/libraries/AP_HAL/HAL.h",
 		"/home/rutk1t0r/src/ardupilot/ArduCopter/Copter.h",
 		"/home/rutk1t0r/src/ardupilot/libraries/AP_Motors/AP_Motors_Class.h",
 		"/home/rutk1t0r/src/ardupilot/libraries/AP_Motors/AP_MotorsMatrix.cpp",
@@ -567,15 +631,15 @@
 					"file": "ArduCopter/ArduCopter.cpp",
 					"settings":
 					{
-						"buffer_size": 23717,
+						"buffer_size": 24569,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7460,
-								7460
+								3998,
+								3998
 							]
 						],
 						"settings":
@@ -585,13 +649,125 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4640.0,
+						"translation.y": 4950.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
+					"file": "libraries/RC_Channel/RC_Channel.h",
+					"settings":
+					{
+						"buffer_size": 5730,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3973,
+								3973
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C Improved/C Improved.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 554.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "ArduCopter/switches.cpp",
+					"settings":
+					{
+						"buffer_size": 24087,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 330.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "ArduCopter/Copter.h",
+					"settings":
+					{
+						"buffer_size": 44916,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6640,
+								6640
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C Improved/C Improved.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3887.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "libraries/AP_Baro/AP_Baro.cpp",
+					"settings":
+					{
+						"buffer_size": 14612,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13763,
+								13763
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 7162.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
 					"file": "ArduCopter/radio.cpp",
 					"settings":
 					{
@@ -619,7 +795,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 6,
 					"file": "ArduCopter/control_stabilize.cpp",
 					"settings":
 					{
@@ -647,19 +823,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 7,
 					"file": "ArduCopter/control_althold.cpp",
 					"settings":
 					{
-						"buffer_size": 8056,
+						"buffer_size": 8060,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								176,
-								176
+								7960,
+								7960
 							]
 						],
 						"settings":
@@ -669,41 +845,69 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 225.0,
+						"translation.y": 3656.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "libraries/AP_HAL/HAL.h",
+					"buffer": 8,
+					"file": "libraries/AC_AttitudeControl/AC_PosControl.cpp",
 					"settings":
 					{
-						"buffer_size": 2719,
+						"buffer_size": 38453,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2101,
-								2096
+								7203,
+								7203
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/C Improved/C Improved.tmLanguage",
+							"syntax": "Packages/C++/C++.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1695.0,
+						"translation.y": 3370.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 9,
+					"file": "libraries/AC_AttitudeControl/AC_AttitudeControl.cpp",
+					"settings":
+					{
+						"buffer_size": 32870,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								709,
+								709
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
 					"file": "libraries/AP_HAL/examples/UART_test/UART_test.cpp",
 					"settings":
 					{
@@ -731,7 +935,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 11,
 					"file": "libraries/AP_HAL_PX4/HAL_PX4_Class.cpp",
 					"settings":
 					{
@@ -754,6 +958,90 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 1575.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "libraries/AP_Motors/AP_MotorsMatrix.cpp",
+					"settings":
+					{
+						"buffer_size": 15676,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12919,
+								12919
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "ArduCopter/defines.h",
+					"settings":
+					{
+						"buffer_size": 21921,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5119,
+								5119
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C Improved/C Improved.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1888.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "ArduCopter/Copter.cpp",
+					"settings":
+					{
+						"buffer_size": 3951,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1266,
+								1266
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 656.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

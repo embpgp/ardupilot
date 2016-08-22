@@ -173,7 +173,7 @@ void Copter::auto_arm()
     static uint16_t continue_s = 0;
     if(!arm_ok)
     {
-        if(++delay_s >= 100)
+        if(++delay_s >= 50)
         {
             channel_throttle->set_control_in(0);
             channel_yaw->set_control_in(4200);
@@ -192,16 +192,16 @@ void Copter::auto_arm()
  然后２秒后进行飞行计数，然后对100Hz进行"分频",让控制速度慢下来，不至于很快地冲到阈值
  阈值目前设置为自稳模式的37%油门
  过程：
- 前4秒：一直以10Hz的频率++油门，直到阈值370，
+ 前4秒：一直以10Hz的频率++油门，直到阈值400，
  4~8秒：固定３５０油门
  8~$:一直－－油门，直到为０上锁
  $~($+2.5)s，上锁
  */
 
-
-#define FLY_THROTTLE 370
+//11.8v
+#define FLY_THROTTLE 272
 //飞行时间0.01*s
-#define FLY_TIME 30
+#define FLY_TIME 17
 //100hz运行频率
 void Copter::auto_althold_fly()
 {
@@ -209,39 +209,58 @@ void Copter::auto_althold_fly()
     static uint32_t count = 0;
     static uint16_t stop_count = 0;//为了自动上锁
     static int throttle_temp = 0;//油门值控制
+    static int pitch_temp = 0;   //pitch值控制向前飞行
+    static int roll_temp = 0;
     static bool land_flag = false;//降落后将不在进行
-    if (!ap.new_radio_frame)//检测是否有遥控数据过来,px4底层提供的数据
+    if (!ap.new_radio_frame)//检测是否有遥控数据过来,px4底层提供的数据，防止失控
     {
+
         if(arm_ok && !land_flag)//先检测是否2s自动解锁了，有一个bool值
         {
 
             
-            if(++count >= 200)      //２s后开始起飞
+            if(++count >= 500)      //5s后开始起飞
             {
                 //测试响铃
-                //tonealarm.play_by_myself(3);
                 //
+                g.rc_5.set_radio_in(1900);  //设置第五通道
                 ap.using_interlock = true;  //motor运行标志
                 ap.throttle_zero = false;   //必须搞定的标志位，在radio函数中被设置
                 if( count % 10 == 0)   //every 10 times increase a time
                 {
                     ++fly_time_s;
                 }
-                if(fly_time_s >= FLY_TIME)   //8s后开始减油门
+                if(fly_time_s >= FLY_TIME)   //
                 {
                       
-                    if(fly_time_s >= 80)
+                    if(fly_time_s < 63 )   //前进状态  
                     {
-                        --throttle_temp;
-                    }          
-                    else
+                        
+                        throttle_temp = 260; 
+                        pitch_temp = -500;
+                        roll_temp = 50;            
+                        
+                    } 
+                    else if(fly_time_s < 73)    //刹车 状态
                     {
-                        throttle_temp = 350; 
+                        tonealarm.play_by_myself(3);
+                        throttle_temp = 261; 
+                        pitch_temp = 500;
+                        roll_temp = 50; 
+                    }         
+                    else    //下降状态
+                    {
+                        
+                        
+                        throttle_temp -= 1;                      
+                        roll_temp = 50; 
+
                     }
                 }
                 else
                 {
-                    ++throttle_temp;             
+                    tonealarm.play_by_myself(3);
+                    throttle_temp += 2;    //加速升高状态         
                 }
                 //限幅0~FLY_THROTTLE
                 if(throttle_temp < 0)
@@ -257,8 +276,8 @@ void Copter::auto_althold_fly()
                 {
                     //调用方法,模拟遥控器的数据
                     channel_throttle->set_control_in(throttle_temp);
-                    channel_roll->set_control_in(0);
-                    channel_pitch->set_control_in(0);
+                    channel_roll->set_control_in(roll_temp);
+                    channel_pitch->set_control_in(pitch_temp);
                     channel_yaw->set_control_in(0);
                 }                 
                 else
@@ -267,8 +286,10 @@ void Copter::auto_althold_fly()
                     set_mode(STABILIZE, MODE_REASON_THROTTLE_LAND_ESCAPE);
                     channel_throttle->set_control_in(0);
                     channel_yaw->set_control_in(-4200);
+                    channel_pitch->set_control_in(0);
+                    channel_roll->set_control_in(0);
                     //持续2.5s
-                    if(++stop_count >= 250)
+                    if(++stop_count >= 210)
                     {
                         land_flag = true;
                     }
